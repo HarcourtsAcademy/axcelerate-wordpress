@@ -1,0 +1,171 @@
+{
+    "login_or_create": {
+        "TYPE": "select",
+        "TITLE": "Determines if the User Login step allows contact creation - or requires existing user accounts.",
+        "DISPLAY": "Require Login",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 1
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Returning Users"
+    },
+    "create_user_start": {
+        "TYPE": "select",
+        "TITLE": "Create Users when a contact is created through the User Login step.",
+        "DISPLAY": "New Contact - User",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Returning Users",
+        "AVAILABLE_ENVS": {
+            "wordpress": true,
+            "axcelerate": false,
+            "agent-portal": false,
+            "client-portal": false
+        }
+    },
+
+    "contact_validation_check": {
+        "TYPE": "select",
+        "TITLE": "<p>Add a check to identify existing contacts with the same email address</p><p>If any contacts are found it will generate a resumption email that will allow them to continue enrolment, but not progress beyond the Login Step.</p><p>Only applies to Wordpress Enrolment Widgets.</p>",
+        "DISPLAY": "Validate On Create",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Returning Users",
+        "AVAILABLE_ENVS": {
+            "wordpress": true,
+            "axcelerate": false,
+            "agent-portal": false,
+            "client-portal": false
+        }
+    },
+
+    "contact_create_only": {
+        "TYPE": "select",
+        "TITLE": "Only Show the Contact Create Option",
+        "DISPLAY": "Only New Students",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Returning Users"
+    },
+
+    "confirm_emails": {
+        "TYPE": "select",
+        "TITLE": "Adds a confirm email input to contact create forms, requiring double entry of email addresses",
+        "DISPLAY": "Confirm Emails",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Returning Users"
+    },
+
+    "allow_clients": {
+        "TYPE": "select",
+        "TITLE": "Allows client users to login through the User Login Step. When set to No will prohibit client use of the enrolment form.",
+        "DISPLAY": "Allow Clients",
+        "VALUES": [
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Returning Users"
+    },
+    "allow_learners": {
+        "TYPE": "select",
+        "TITLE": "Allows learner users to login through the User Login Step. When set to No will prohibit learner use of the enrolment form.",
+        "DISPLAY": "Allow Learners",
+        "VALUES": [
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Returning Users"
+    },
+    "allow_agents": {
+        "TYPE": "select",
+        "TITLE": "Allows Agent users to login through the User Login Step. When set to No will prohibit Agent use of the enrolment form.",
+        "DISPLAY": "Allow Agents",
+        "VALUES": [
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Returning Users"
+    },
+    "allow_trainers": {
+        "TYPE": "select",
+        "TITLE": "Allows Trainer users to login through the User Login Step. When set to No will prohibit Trainer use of the enrolment form.",
+        "DISPLAY": "Allow Trainers",
+        "VALUES": [
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Returning Users"
+    }
+}

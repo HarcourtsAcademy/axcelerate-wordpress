@@ -1,0 +1,829 @@
+{
+    "DISPLAY": {
+        "TYPE": "text",
+        "TITLE": "The Step Name shown to students in the step menu. It is reccommended to keep these short",
+        "DISPLAY": "Display Name",
+        "DEFAULT_VALUE": "Documentation",
+        "GROUPING": "Standard Options",
+        "REQUIRED": true
+    },
+    "TYPE": {
+        "TYPE": "text",
+        "TITLE": "Step Type",
+        "DISPLAY": "Step Type",
+        "DEFAULT_VALUE": "portfolio",
+        "EDITABLE": false,
+        "GROUPING": "Standard Options",
+        "REQUIRED": true
+    },
+
+    "STEP_ID": {
+        "DISPLAY": "Step ID",
+        "TYPE": "text",
+        "TITLE": "The Internal ID used to identify the step. Not shown to students.",
+        "DEFAULT_VALUE": "portfolio",
+        "MAKE_UNIQUE": true,
+        "GROUPING": "Standard Options",
+        "REQUIRED": true
+    },
+
+    "HEADER": {
+        "DISPLAY": "Step Header",
+        "TYPE": "text",
+        "TITLE": "This Text appears above the step as a header.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+
+    "BLURB_TOP": {
+        "DISPLAY": "Top Blurb",
+        "TYPE": "textarea",
+        "TITLE": "An information blurb that appears above any content on the step.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+    "BLURB_BOTTOM": {
+        "DISPLAY": "Bottom Blurb",
+        "TYPE": "textarea",
+        "TITLE": "An information blurb that appears below any content on the step.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+    "STEP_TERMS": {
+        "DISPLAY": "Step Terms",
+        "TYPE": "textarea",
+        "TITLE": "Adds a terms and conditions approval element to the step, required to be completed before the step is considered complete.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+    "BUTTON_TEXT": {
+        "DISPLAY": "Button Text",
+        "TYPE": "text",
+        "TITLE": "The button text for the Submit button for a step. It is reccommended to keep these short.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+    "ISCRICOS": {
+        "DISPLAY": "Use CRICOS Checklist",
+        "TYPE": "select",
+        "TITLE": "Use the system CRICOS checklist - Takes precedence over the ID.",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": "true"
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": "false"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Checklist Settings"
+    },
+    "PORTFOLIOCHECKLISTID": {
+        "DISPLAY": "Portfolio Checklist ID",
+        "TYPE": "text",
+        "TITLE": "The numeric ID of the portfolio checklist to be used. Found in the URL when editing the checklist. (certTypeListID)",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Checklist Settings"
+    },
+    "portfolio_optional": {
+        "DISPLAY": "Step Optional",
+        "TYPE": "select",
+        "TITLE": "This step is optional and may be skipped",
+        "VALUES": [
+            {
+                "DISPLAY": "No",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Yes",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Checklist Settings"
+    },
+
+    "QUAL_TYPE": {
+        "DISPLAY": "Show Type (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Type Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Qualification Settings"
+    },
+    "QUAL_VALUE": {
+        "DISPLAY": "Show Value (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Value Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Qualification Settings"
+    },
+    "QUAL_NUMBER": {
+        "DISPLAY": "Show Number (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Number Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Qualification Settings"
+    },
+    "QUAL_ISSUEDBY": {
+        "DISPLAY": "Show Issued By (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued By Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Qualification Settings"
+    },
+    "QUAL_DATEISSUED": {
+        "DISPLAY": "Show Issued Date (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued Date Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Qualification Settings"
+    },
+    "QUAL_DATEEXPIRES": {
+        "DISPLAY": "Show Expiry (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Expiry Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Qualification Settings"
+    },
+    "QUAL_DETAILS": {
+        "DISPLAY": "Show Details (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Details Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Qualification Settings"
+    },
+
+    "QUAL_NAME": {
+        "DISPLAY": "Show Name (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Qual Name Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Qualification Settings"
+    },
+    "QUAL_SPECIALITY": {
+        "DISPLAY": "Show Speciality (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Speciality Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Qualification Settings"
+    },
+    "QUAL_STARTDATE": {
+        "DISPLAY": "Show Startdate (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Startdate Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Qualification Settings"
+    },
+    "QUAL_STATUS": {
+        "DISPLAY": "Show Status (Qual)",
+        "TYPE": "select",
+        "TITLE": "Show the Status Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Qualification Settings"
+    },
+
+    "REG_TYPE": {
+        "DISPLAY": "Show Type (REG)",
+        "TYPE": "select",
+        "TITLE": "Show the Type Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Registration Settings"
+    },
+    "REG_VALUE": {
+        "DISPLAY": "Show Value (REG)",
+        "TYPE": "select",
+        "TITLE": "Show the Value Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Registration Settings"
+    },
+    "REG_NUMBER": {
+        "DISPLAY": "Show Number (REG)",
+        "TYPE": "select",
+        "TITLE": "Show the Number Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Registration Settings"
+    },
+    "REG_ISSUEDBY": {
+        "DISPLAY": "Show Issued By (REG)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued By Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Registration Settings"
+    },
+    "REG_DATEISSUED": {
+        "DISPLAY": "Show Issued Date (REG)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued Date Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Registration Settings"
+    },
+    "REG_DATEEXPIRES": {
+        "DISPLAY": "Show Expiry (REG)",
+        "TYPE": "select",
+        "TITLE": "Show the Expiry Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Registration Settings"
+    },
+
+    "REG_REGISTRATION": {
+        "DISPLAY": "Show Registration (REG)",
+        "TYPE": "select",
+        "TITLE": "Show the Registration Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Registration Settings"
+    },
+
+    "REG_DETAILS": {
+        "DISPLAY": "Show Details (REG)",
+        "TYPE": "select",
+        "TITLE": "Show the Details Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Registration Settings"
+    },
+    "REG_NAME": {
+        "DISPLAY": "Show Name (REG)",
+        "TYPE": "select",
+        "TITLE": "Show the REG Name Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Registration Settings"
+    },
+
+    "MEMBER_TYPE": {
+        "DISPLAY": "Show Type (MEMBER)",
+        "TYPE": "select",
+        "TITLE": "Show the Type Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Membership Settings"
+    },
+    "MEMBER_VALUE": {
+        "DISPLAY": "Show Value (MEMBER)",
+        "TYPE": "select",
+        "TITLE": "Show the Value Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Membership Settings"
+    },
+    "MEMBER_NUMBER": {
+        "DISPLAY": "Show Number (MEMBER)",
+        "TYPE": "select",
+        "TITLE": "Show the Number Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Membership Settings"
+    },
+    "MEMBER_ISSUEDBY": {
+        "DISPLAY": "Show Issued By (MEMBER)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued By Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Membership Settings"
+    },
+    "MEMBER_DATEISSUED": {
+        "DISPLAY": "Show Issued Date (MEMBER)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued Date Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Membership Settings"
+    },
+    "MEMBER_DATEEXPIRES": {
+        "DISPLAY": "Show Expiry (MEMBER)",
+        "TYPE": "select",
+        "TITLE": "Show the Expiry Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Membership Settings"
+    },
+    "MEMBER_DETAILS": {
+        "DISPLAY": "Show Details (MEMBER)",
+        "TYPE": "select",
+        "TITLE": "Show the Details Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Membership Settings"
+    },
+
+    "LICENCE_TYPE": {
+        "DISPLAY": "Show Type (LICENCE)",
+        "TYPE": "select",
+        "TITLE": "Show the Type Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Licence Settings"
+    },
+    "LICENCE_VALUE": {
+        "DISPLAY": "Show Value (LICENCE)",
+        "TYPE": "select",
+        "TITLE": "Show the Value Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Licence Settings"
+    },
+    "LICENCE_NUMBER": {
+        "DISPLAY": "Show Number (LICENCE)",
+        "TYPE": "select",
+        "TITLE": "Show the Number Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Licence Settings"
+    },
+    "LICENCE_ISSUEDBY": {
+        "DISPLAY": "Show Issued By (LICENCE)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued By Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Licence Settings"
+    },
+    "LICENCE_DATEISSUED": {
+        "DISPLAY": "Show Issued Date (LICENCE)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued Date Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Licence Settings"
+    },
+    "LICENCE_DATEEXPIRES": {
+        "DISPLAY": "Show Expiry (LICENCE)",
+        "TYPE": "select",
+        "TITLE": "Show the Expiry Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Licence Settings"
+    },
+    "LICENCE_DETAILS": {
+        "DISPLAY": "Show Details (LICENCE)",
+        "TYPE": "select",
+        "TITLE": "Show the Details Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Licence Settings"
+    },
+
+    "OTHER_TYPE": {
+        "DISPLAY": "Show Type (OTHER)",
+        "TYPE": "select",
+        "TITLE": "Show the Type Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Other Settings"
+    },
+    "OTHER_VALUE": {
+        "DISPLAY": "Show Value (OTHER)",
+        "TYPE": "select",
+        "TITLE": "Show the Value Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Other Settings"
+    },
+    "OTHER_NUMBER": {
+        "DISPLAY": "Show Number (OTHER)",
+        "TYPE": "select",
+        "TITLE": "Show the Number Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Other Settings"
+    },
+    "OTHER_ISSUEDBY": {
+        "DISPLAY": "Show Issued By (OTHER)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued By Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Other Settings"
+    },
+    "OTHER_DATEISSUED": {
+        "DISPLAY": "Show Issued Date (OTHER)",
+        "TYPE": "select",
+        "TITLE": "Show the Issued Date Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Other Settings"
+    },
+    "OTHER_DATEEXPIRES": {
+        "DISPLAY": "Show Expiry (OTHER)",
+        "TYPE": "select",
+        "TITLE": "Show the Expiry Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Other Settings"
+    },
+    "OTHER_DETAILS": {
+        "DISPLAY": "Show Details (OTHER)",
+        "TYPE": "select",
+        "TITLE": "Show the Details Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Other Settings"
+    },
+    "OTHER_NAME": {
+        "DISPLAY": "Show Name (OTHER)",
+        "TYPE": "select",
+        "TITLE": "Show the OTHER Name Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide",
+                "VALUE": "false"
+            },
+            {
+                "DISPLAY": "Show",
+                "VALUE": "true"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Other Settings"
+    }
+}

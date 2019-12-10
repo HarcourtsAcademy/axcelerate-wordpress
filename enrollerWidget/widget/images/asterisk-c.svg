@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="48 86 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Custom_Size_5);
+      }
+
+      .cls-2 {
+        fill: #ee3c26;
+        font-size: 30px;
+        font-family: ProximaNova-Regular, Proxima Nova;
+      }
+    </style>
+    <clipPath id="clip-Custom_Size_5">
+      <rect x="48" y="86" width="14" height="14"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_5" data-name="Custom Size 5" class="cls-1">
+    <text id="_" data-name="*" class="cls-2" transform="translate(36 79)"><tspan x="13.9" y="30">*</tspan></text>
+  </g>
+</svg>

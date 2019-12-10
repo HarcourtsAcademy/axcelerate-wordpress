@@ -1,0 +1,136 @@
+{
+    "user_course_search": {
+        "TYPE": "select",
+        "TITLE": "User tokens are used when searching for courses. For Client Users this will enable them to see Organisation specific Courses.",
+        "DISPLAY": "Course Search - By User",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Course Search"
+    },
+    "client_course_filter": {
+        "TYPE": "select",
+        "TITLE": "Add Course Selector to swap between Organisation and public courses. Note: Should only be enabled for Client User Configs",
+        "DISPLAY": "Organisation/Public Course Option",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Course Search"
+    },
+    "add_course_selector": {
+        "TYPE": "select",
+        "TITLE": "Adds Course Selectors to the Course List - allowing other courses to be selected.",
+        "DISPLAY": "Course Selection / Filtering",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Course Search"
+    },
+    "location_filter": {
+        "TYPE": "select",
+        "TITLE": "Adds a Location Filter to the course search, when searching by Workshop.",
+        "DISPLAY": "Workshop Location Filter",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Course Search"
+    },
+
+    "training_category": {
+        "TYPE": "text",
+        "TITLE": "Filter all Course Searches by a training category.",
+        "DISPLAY": "Restrict to Training Category",
+        "GROUPING": "Course Search"
+    },
+    "venue_restriction": {
+        "TYPE": "text",
+        "TITLE": "Filter all (Workshop) Course Searches to a single Venue. <br />NOTE: Uses Venue Contact ID - not Name",
+        "DISPLAY": "Restrict to Venue",
+        "GROUPING": "Course Search"
+    },
+    "location_restriction": {
+        "TYPE": "text",
+        "TITLE": "Filter all (Workshop) Course Searches to a single Location",
+        "DISPLAY": "Restrict to Location",
+        "GROUPING": "Course Search"
+    },
+    "delivery_location_restriction": {
+        "TYPE": "text",
+        "TITLE": "Filter all (Program) Course Searches to a single Delivery Location. <br />NOTE: Uses Delivery Location ID - not Name",
+        "DISPLAY": "Restrict to Delivery Location",
+        "GROUPING": "Course Search"
+    },
+
+    "domain_filter": {
+        "TYPE": "text",
+        "TITLE": "Filter course search results by domain.<p>Supply multiple domains as comma separated list, without spaces.</p><p>Note: Switch inclusive/exclusive through the other settings.</p>",
+        "DISPLAY": "Domain Filter",
+        "GROUPING": "Course Search"
+    },
+    "domain_filter_exclude": {
+        "TYPE": "select",
+        "TITLE": "Switch the domain filter between including filtered domains, or excluding them.",
+        "DISPLAY": "Domain Filter - Include/Exclude",
+        "VALUES": [
+            {
+                "DISPLAY": "Exclude",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "Include",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Course Search"
+    },
+    "show_no_domain": {
+        "TYPE": "select",
+        "TITLE": "Show or hide courses which have no linked domain from the course instance search results.",
+        "DISPLAY": "Domains: Show No Domain",
+        "VALUES": [
+            {
+                "DISPLAY": "Show Courses with no domain",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "Hide Courses with no domain",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Course Search"
+    }
+}

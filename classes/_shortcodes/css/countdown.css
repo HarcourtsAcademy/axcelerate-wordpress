@@ -1,0 +1,32 @@
+div.ax-countdown{
+	padding: 10px;
+	border-radius: 3px;
+	background: #eee;
+    display:inline-block;
+    color:#fff;
+    text-align: center;
+  	font-family: sans-serif;
+}
+
+div.ax-countdown > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #666;
+	display: inline-block;
+    color: #ddd;
+    font-weight: 500;
+    font-size:16px;
+   
+}
+div.ax-countdown > a{
+	padding: 15px;
+	border-radius: 3px;
+	background: #222;
+	display: inline-block;
+    color: #ddd;
+    font-weight: 500;
+    font-size:16px;
+    margin-left:10px;
+    cursor:pointer;
+   
+}

@@ -1,0 +1,559 @@
+/* AGENT PORTAL CSS*/
+#ax_mapping_widget_holder.agent-portal .ax-step-input-holder input{
+	min-width: 100%;
+	width: 100%;
+}
+
+#ax_mapping_widget_holder.agent-portal .ax-step-input-holder textarea{
+	width: 400px;
+}
+#ax_mapping_widget_holder.agent-portal{
+	    max-width: 60em;
+    margin-right: auto;
+    margin-left: auto;
+}
+#ax_mapping_widget_holder.agent-portal div.ui-input-text{
+	width: 400px;
+	display: inline-block;	
+}
+
+#enroller.enroller-widget{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60em;
+}
+#enroller_config_table td:last-child{
+	width: 10em;
+}
+a.ax-config-load{
+	display:inline-block;
+}
+
+
+#enroller_config_table_wrapper.dataTables_wrapper .dataTables_paginate .paginate_button.current, 
+#enroller_config_table_wrapper.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
+#enroller_config_table_wrapper.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+	background-color: #2d5b83;
+	background: #2d5b83;
+	border-color: #2d5b83;
+	color: #fff !important;
+}
+
+#ax_mapping_widget_holder  table.dataTable thead th {
+    background: transparent;
+    border: none;
+    border-collapse: collapse;
+    padding: 0.8em;
+    text-align:left;
+    color: #38C;
+}
+#ax_mapping_widget_holder table.dataTable th:hover:not(:focus):not(.no-hover){
+    background: #0C2F4E;
+    color: #fff !important;
+    text-shadow: none;
+    border-color: #0C2F4E;
+}
+#ax_mapping_widget_holder.agent-portal .ui-btn{
+	border: none;
+}
+#ax_mapping_widget_holder.agent-portal .ui-btn.ui-btn-icon-notext{
+	background:none;
+}
+
+#ax_mapping_widget_holder.agent-portal a.ax-export-settings {
+	display: inline-block;
+
+    margin-top: 3em;
+    width: 400px;
+    background: #0C2F4E;
+    color: #fff !important;
+    text-shadow: none;
+    box-sizing: border-box;
+}
+#enroller_config_widget{
+	margin-top: 2em;
+}
+#ax_mapping_widget_holder.agent-portal h2{
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
+#ax_mapping_widget_holder.agent-portal .dt-rowReorder-moving, 
+#ax_mapping_widget_holder.agent-portal .dt-rowReorder-moving .reorder, 
+#ax_mapping_widget_holder.agent-portal tr.ax-active-config td, 
+#ax_mapping_widget_holder.agent-portal tr.ax-active-config td.sorting_1{
+    background-color: #2d5b83;
+	background: #2d5b83;
+	border-color: #2d5b83;
+	color: #fff !important;
+}
+#ax_mapping_widget_holder * {
+	text-shadow: none;
+}
+
+/* WP CSS */
+#ax_mapping_widget_holder:not(.agent-portal) h2{
+	margin-top: 0;
+}
+
+/*STANDARD CSS*/
+
+#enroller_config_table tr th:nth-child(3),
+#enroller_config_table tr td:nth-child(3),
+#enroller_config_table tr th:nth-child(2),
+#enroller_config_table tr td:nth-child(2){
+    max-width: 20em;
+    width: auto !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+                                       
+}
+#enroller_config_table tr th{
+	width: auto !important;
+}
+
+#ax_mapping_widget_holder input:disabled{
+	 -webkit-filter: invert(10%);
+    filter: invert(10%);
+    background: #dcdcdc;
+	
+}
+div.ax-invisible-label{
+	width: 14em;
+	margin-right: 1em;
+	display:inline-block;
+}
+#ax_mapping_widget_holder table.dt-rowReorder-moving, table.dt-rowReorder-moving .reorder,
+#ax_mapping_widget_holder table tr.ax-active-config td,
+#ax_mapping_widget_holder table tr.ax-active-config td.sorting_1{
+	 background-color: #2d5b83;
+	background: #2d5b83;
+	border-color: #2d5b83;
+	color: #fff !important;
+}
+.reorder{
+	cursor: move;
+}
+
+
+
+.ui-icon-delete:after {
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%2214%2C3%2011%2C0%207%2C4%203%2C0%200%2C3%204%2C7%200%2C11%203%2C14%207%2C10%2011%2C14%2014%2C11%2010%2C7%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.ui-icon-edit:after {
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M1%2C10l-1%2C4l4-1l7-7L8%2C3L1%2C10z%20M11%2C0L9%2C2l3%2C3l2-2L11%2C0z%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.ui-icon-eye:after {
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20style%3D%22fill%3A%23FFFFFF%3B%22%20d%3D%22M7%2C2C3%2C2%2C0%2C7%2C0%2C7s3%2C5%2C7%2C5s7-5%2C7-5S11%2C2%2C7%2C2z%20M7%2C10c-1.657%2C0-3-1.344-3-3c0-1.657%2C1.343-3%2C3-3%20s3%2C1.343%2C3%2C3C10%2C8.656%2C8.657%2C10%2C7%2C10z%20M7%2C6C6.448%2C6%2C6%2C6.447%2C6%2C7c0%2C0.553%2C0.448%2C1%2C1%2C1s1-0.447%2C1-1C8%2C6.447%2C7.552%2C6%2C7%2C6z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.ui-icon-check:after,
+/* Used ui-checkbox-on twice to increase specificity. If active state has background-image for gradient this rule overrides. */
+html .ui-btn.ui-checkbox-on.ui-checkbox-on:after {
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20style%3D%22fill%3A%23FFFFFF%3B%22%20points%3D%2214%2C4%2011%2C1%205.003%2C6.997%203%2C5%200%2C8%204.966%2C13%204.983%2C12.982%205%2C13%20%22%2F%3E%3C%2Fsvg%3E");
+}
+.ui-icon-plus:after {
+	background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%2214%2C5%209%2C5%209%2C0%205%2C0%205%2C5%200%2C5%200%2C9%205%2C9%205%2C14%209%2C14%209%2C9%2014%2C9%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+/* Buttons and icons */
+.ui-btn {
+	font-size: 16px;
+	margin: .5em 0;
+	padding: .7em 1em;
+	display: block;
+	position: relative;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+	    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+.ui-btn-icon-notext,
+.ui-header button.ui-btn.ui-btn-icon-notext,
+.ui-footer button.ui-btn.ui-btn-icon-notext {
+	padding: 0;
+	width: 1.75em;
+	height: 1.75em;
+	text-indent: -9999px;
+	white-space: nowrap !important;
+}
+.ui-mini {
+	font-size: 12.5px;
+}
+.ui-mini .ui-btn {
+	font-size: inherit;
+}
+
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    background-color: #666 /*{global-icon-color}*/;
+    background-color: rgba(0,0,0,.3) /*{global-icon-disc}*/;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+.ui-btn {
+	font-size: 16px;
+	margin: .5em 0;
+	padding: .7em 1em;
+	display: block;
+	position: relative;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.ui-btn-icon-notext,
+.ui-header button.ui-btn.ui-btn-icon-notext,
+.ui-footer button.ui-btn.ui-btn-icon-notext {
+	padding: 0;
+	width: 1.75em;
+	height: 1.75em;
+	text-indent: -9999px;
+	white-space: nowrap !important;
+}
+.ui-mini {
+	font-size: 12.5px;
+}
+.ui-mini .ui-btn {
+	font-size: inherit;
+}
+/* Make buttons in toolbars default to mini and inline. */
+.ui-header .ui-btn,
+.ui-footer .ui-btn {
+	font-size: 12.5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.ui-header .ui-controlgroup .ui-btn-icon-notext,
+.ui-footer .ui-controlgroup .ui-btn-icon-notext {
+    font-size: 12.5px;
+}
+/* To ensure same top and left/right position when ui-btn-left/right are added to something other than buttons. */
+.ui-header .ui-btn-left,
+.ui-header .ui-btn-right {
+	font-size: 12.5px;
+}
+.ui-mini.ui-btn-icon-notext,
+.ui-mini .ui-btn-icon-notext,
+.ui-header .ui-btn-icon-notext,
+.ui-footer .ui-btn-icon-notext {
+	font-size: 16px;	
+	padding: 0;
+}
+.ui-btn-inline {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: .625em;
+}
+.ui-btn-icon-left {
+	padding-left: 2.5em;
+}
+.ui-btn-icon-right {
+	padding-right: 2.5em;
+}
+.ui-btn-icon-top {
+	padding-top: 2.5em;
+}
+.ui-btn-icon-bottom {
+	padding-bottom: 2.5em;
+}
+.ui-header .ui-btn-icon-top,
+.ui-footer .ui-btn-icon-top,
+.ui-header .ui-btn-icon-bottom,
+.ui-footer .ui-btn-icon-bottom {
+	padding-left: .3125em;
+	padding-right: .3125em;
+}
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after,
+.ui-btn-icon-notext:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 22px;
+	height: 22px;
+}
+.ui-btn-icon-notext:after,
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after {
+	top: 50%;
+	margin-top: -11px;
+}
+.ui-btn-icon-left:after {
+	left: .5625em;
+}
+.ui-btn-icon-right:after {
+	right: .5625em;
+}
+.ui-mini.ui-btn-icon-left:after,
+.ui-mini .ui-btn-icon-left:after,
+.ui-header .ui-btn-icon-left:after,
+.ui-footer .ui-btn-icon-left:after {
+	left: .37em;
+}
+.ui-mini.ui-btn-icon-right:after,
+.ui-mini .ui-btn-icon-right:after,
+.ui-header .ui-btn-icon-right:after,
+.ui-footer .ui-btn-icon-right:after {
+	right: .37em;
+}
+.ui-btn-icon-notext:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after {
+	left: 50%;
+	margin-left: -11px;
+}
+.ui-btn-icon-top:after {
+	top: .5625em;
+}
+.ui-btn-icon-bottom:after {
+	top: auto;
+	bottom: .5625em;
+}
+/* Buttons in header position classes */
+.ui-header .ui-btn-left,
+.ui-header .ui-btn-right,
+.ui-btn-left > [class*="ui-"],
+.ui-btn-right > [class*="ui-"] {
+	margin: 0;
+}
+.ui-btn-left,
+.ui-btn-right {
+	position: absolute;
+	top: .24em;
+}
+.ui-btn-left {
+	left: .4em;
+}
+.ui-btn-right {
+	right: .4em;
+}
+.ui-btn-icon-notext.ui-btn-left {
+	top: .3125em;
+	left: .3125em;
+}
+.ui-btn-icon-notext.ui-btn-right {
+	top: .3125em;
+	right: .3125em;
+}
+/* Button elements */
+button.ui-btn,
+.ui-controlgroup-controls button.ui-btn-icon-notext {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 100%;
+}
+button.ui-btn-inline,
+.ui-header button.ui-btn,
+.ui-footer button.ui-btn {
+	width: auto;
+}
+
+
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+/* Firefox adds a 1px border in a button element. We negate this to make sure they have the same height as other buttons in controlgroups. */
+button.ui-btn::-moz-focus-inner {
+	border: 0;
+}
+button.ui-btn-icon-notext,
+.ui-controlgroup-horizontal .ui-controlgroup-controls button.ui-btn {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	width: 1.75em;
+}
+
+.ui-btn-icon-right {
+    padding-right: 2.5em;
+}
+
+
+/*CUSTOM*/
+
+
+a.ax-link{
+	margin-right: .5em;
+}
+.ax-export-settings{
+	display:inline-block;
+}
+
+.ui-btn-icon-notext{
+	background-color: transparent;
+}
+
+#ax_mapping_widget_holder{
+	background: #fcfcfc;
+	padding: 1em;
+	max-width: 80em;
+}
+
+#ax_mapping_widget_holder input.ax-config-text-input,
+#ax_mapping_widget_holder input[type=text],
+#ax_mapping_widget_holder textarea,
+#ax_mapping_widget_holder .ui-btn{
+	-webkit-border-radius: .3125em;
+    border-radius: .3125em;
+    border-top-left-radius: 0.3125em;
+    border-top-right-radius: 0.3125em;
+    border-bottom-right-radius: 0.3125em;
+    border-bottom-left-radius: 0.3125em;
+    
+}
+#ax_mapping_widget_holder input.ax-config-text-input,
+#ax_mapping_widget_holder input[type=text],
+#ax_mapping_widget_holder textarea{
+	padding: .5em;
+}
+
+
+.dt-rowReorder-moving,.dt-rowReorder-moving .reorder{
+	background-color: #53a8e0 !important;
+    color: #fff;
+}
+.reorder{
+	cursor: move;
+}
+
+#ax_mapping_widget_holder .ax-step-input-holder{
+	margin-bottom: .5em;
+}
+#ax_mapping_widget_holder .ax-step-input-holder input,
+#ax_mapping_widget_holder .ax-step-input-holder textarea{
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+    width: 400px;
+    display: inline-block;
+    font-size: 1em;
+    vertical-align: middle;
+}
+#ax_mapping_widget_holder .ax-step-input-holder .ax-step-input-label{
+	display:inline-block;
+    width: 14em;
+    text-align: right;
+    font-size: 1em;
+    margin-right: 1em;
+    vertical-align: middle;
+}
+
+#ax_mapping_widget_holder .chosen-single{
+	
+  height: auto;
+  border: 1px solid #aaa;
+
+  padding-top: .5em;
+  padding-bottom: .5em;
+  	width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #f6f6f6;
+    vertical-align: top;
+}
+#ax_mapping_widget_holder #ax_add_custom_field{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#ax_mapping_widget_holder .dataTable{
+	width: 100% !important;
+}
+
+.ax-step-input-holder a.ui-btn-icon-notext{
+	margin-left: 1em;
+}
+
+.chosen-search input{
+	width: 100% !important;
+}
+
+.ui-btn-icon-notext{
+	vertical-align: middle;
+}
+a.ui-btn.ax-map-save{
+	width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+a.ax-config-delete,
+a.ax-config-edit,
+a.ax-config-duplicate{
+	display: inline-block;
+}
+
+a.ax-export-settings {
+	display: inline-block;
+
+    margin-top: 3em;
+    width: 400px;
+    background: #0085ba;
+    color: #fff;
+    text-shadow: none;
+    box-sizing: border-box;
+    margin-bottom: 5em;
+}
+div.ax-field-list-holder{
+    margin-bottom: 2em;
+}
+div.ax-step-content{
+	margin-top: 1em;
+}
+div.ax-new-field, div.ax-new-step{
+	background: #EAF3F9;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+a.ax-config-close{
+	float: right;
+	margin-top: -0.3em;
+}
+
+div.ax-step-fieldedit, div.ax-step-field-v-edit, div.ax-step-content{
+	/*background-color: #eaf3f9;*/
+	border: 1px #ddd solid;
+	padding: .7em;
+	border-radius: .3em;
+}
+

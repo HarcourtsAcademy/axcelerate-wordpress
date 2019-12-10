@@ -1,0 +1,36 @@
+{
+    "contact_search_buttons": {
+        "TYPE": "select",
+        "TITLE": "Changes the Contact Search step to initially show buttons with Enrolling Myself and Enrolling Someone Else and not the contact list.",
+        "DISPLAY": "Contact Search Buttons",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Contact Search"
+    },
+    "contact_search_button_autocreate": {
+        "TYPE": "select",
+        "TITLE": "Automatically launch the contact create tool when the Enrolling Someone Else button is clicked. Advisable for Client Users",
+        "DISPLAY": "Create on Enrolling Other",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Contact Search"
+    }
+}

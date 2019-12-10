@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="81 86 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Custom_Size_6);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fddc26;
+      }
+    </style>
+    <clipPath id="clip-Custom_Size_6">
+      <rect x="81" y="86" width="14" height="14"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_6" data-name="Custom Size 6" class="cls-1">
+    <g id="ic_done_black_24px_2_" data-name="ic_done_black_24px (2)" transform="translate(81 86)">
+      <path id="Path_15" data-name="Path 15" class="cls-2" d="M0,0H14V14H0Z"/>
+      <path id="Path_16" data-name="Path 16" class="cls-3" d="M6.667,11.783l-2.45-2.45L3.4,10.15l3.267,3.267,7-7L12.85,5.6Z" transform="translate(-1.417 -2.333)"/>
+    </g>
+  </g>
+</svg>

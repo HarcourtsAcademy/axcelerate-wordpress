@@ -1,0 +1,177 @@
+{
+    "user_contact_create": {
+        "TYPE": "select",
+        "TITLE": "User tokens are used when creating the contact. This adds them as the user creating the contact, but also adds organisations for clients / Marketing Agent ID if using an agent.",
+        "DISPLAY": "Add Contact - By User",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Advanced Settings"
+    },
+
+    "complete_step_events": {
+        "TYPE": "select",
+        "TITLE": "Enable Enrolment Completion events for the 'Complete' step type.",
+        "DISPLAY": "Complete Step Events",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Advanced Settings"
+    },
+    "enquiry_complete_events": {
+        "TYPE": "select",
+        "TITLE": "Enable Enrolment Completion events for the enquiry widget",
+        "DISPLAY": "Enquiry Complete Events",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Advanced Settings"
+    },
+    "post_enrolment_widget": {
+        "TYPE": "select",
+        "TITLE": "Widget is designed to be used through the Enrolment Events system. Enables the firing of triggers to work with the Enrolment Status System.",
+        "DISPLAY": "Post Enrolment Widget",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Advanced Settings",
+        "AVAILABLE_ENVS": {
+            "wordpress": true,
+            "axcelerate": false,
+            "agent-portal": false,
+            "client-portal": false
+        }
+    },
+    "round_to_dollar": {
+        "TYPE": "select",
+        "TITLE": "Rounds the final payment/surcharge up to the nearest dollar. Note - will round up ONLY.",
+        "DISPLAY": "Round to Dollar",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Advanced Settings"
+    },
+
+    "allow_inhouse_enrolment": {
+        "TYPE": "select",
+        "TITLE": "This setting will allow enrolment into inhouse courses.<p>Inhouse courses will not have invoices generated.</p><p>NOTE: This does not apply to the course search, but only to instances specified by URL param/shortcode.</p>",
+        "DISPLAY": "Allow Inhouse Enrolment",
+        "VALUES": [
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Advanced Settings"
+    },
+    "inhouse_confirm_bookings": {
+        "TYPE": "select",
+        "TITLE": "Confirm Inhouse Bookings. Inhouse bookings will be confirmed rather than remaining Tentative. No invoice will be generated.",
+        "DISPLAY": "Confirm Inhouse Enrolment",
+        "VALUES": [
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Advanced Settings"
+    },
+    "add_categories": {
+        "TYPE": "text",
+        "TITLE": "Add 1 or more contact categories by Category ID to any contact created through or loaded through this enrolment widget. Separate individual categories with a comma. No spaces and category IDs must be numeric.",
+        "DISPLAY": "Add Contact Categories",
+        "GROUPING": "Advanced Settings"
+    },
+    "promo_code": {
+        "TYPE": "text",
+        "TITLE": "Automatically add a promo code for any enrolment through this widget. Use Promo Code Text.",
+        "DISPLAY": "Add Promo Code",
+        "GROUPING": "Advanced Settings"
+    },
+
+    "legacy_enrolment_mode": {
+        "TYPE": "select",
+        "TITLE": "Switch to the old style of enrolment where /payment was done with enrolments, rather than the generated invoice. (DEPRECATED)",
+        "DISPLAY": "Legacy Enrolment Mode (Deprecated)",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Advanced Settings"
+    },
+
+    "let_babies_enrol": {
+        "TYPE": "select",
+        "TITLE": "Allow students under 4 years old to enrol.",
+        "DISPLAY": "DOB < 4 Years Old",
+        "VALUES": [
+            {
+                "DISPLAY": "Must be older than 4",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "Younger than 4 allowed",
+                "VALUE": 1
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Advanced Settings"
+    }
+}

@@ -1,0 +1,490 @@
+/************
+ * Axip styles
+ ************/
+
+.ax-wrap .enrolment_steps .checkbox{
+	padding: 0.5em ;
+}
+.ax-wrap .swMain .enrolment_steps .checkbox input[type=checkbox]
+{margin-top: -5px ;
+height:2.5em ;
+box-shadow:none;
+width:1em;}
+/*will style enrolment form inputs*/
+/*will style enrolment form inputs*/
+.ax-wrap .swMain .enrolment_steps, #axip_form_enquiry #axip_page_1, #axip_form_enquiry #axip_page_2 {
+
+ @import (less) url("bootstrap.min.css");
+
+
+}
+
+
+.axip-price-revised{ text-decoration:line-through}
+.bookings_closed, .bookings_closed:hover
+{
+	background-color: #EAEAEA;
+	color: #888;
+}
+
+
+.axip-price-revised{ text-decoration:line-through}
+#axip_invoiceForm ul{list-style-type: none; margin-left: 0}
+#axip_revised_price {font-size: 1.2em; font-weight: bold}
+
+.ax-wrap .table > tbody > tr > td, .ax-wrap .table > tbody > tr > th, .ax-wrap .table > tfoot > tr > td, .ax-wrap .table > tfoot > tr > th, .ax-wrap .table > thead > tr > td, .ax-wrap .table > thead > tr > th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+.ax-wrap .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+
+
+
+.ax-wrap input:not(.btn), .ax-wrap select, .ax-wrap textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    }
+
+.ax-wrap select {
+    text-transform: none;
+}
+.ax-wrap input:not(.btn), .ax-wrap optgroup, .ax-wrap select, .ax-wrap textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+.ax-wrap * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ax-wrap :after, .ax-wrap :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ax-wrap :after, .ax-wrap :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.ax-enquire-submit-holder{
+	padding:1em;
+	text-align:center;
+}
+
+
+
+.enrolment_steps{margin:10px;padding:10px;}
+label.error{color:red;}
+label.mandatory:after {
+  content:"*";
+  color:red;
+}
+
+#axip-course-calendar a{cursor: pointer;}
+
+#axip-course-calendar .fc-title{
+	white-space: normal;
+}
+
+.enrolment_steps{ position:relative;}
+.overlay{position: absolute;  width: 100%;  height: 100%;  background: #fff;  z-index: 99;  left: 0;  top: 0; opacity:0.5;}
+.overlay img{position: absolute; left: 50%;  top: 50%;  z-index: 999;}
+
+/*   
+  SmartWizard 2.0 plugin 
+  jQuery Wizard control Plugin
+  by Dipu
+  
+  http://www.techlaboratory.net
+  http://tech-laboratory.blogspot.com
+*/
+
+/*Rewrite to make responsive. - Rob 27/01/16*/
+.swMain {
+  position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 0px solid #CCC;
+	overflow: visible;
+	width: 100%;
+}
+.swMain .stepContainer {
+  display:block;
+
+  margin: 0;
+  padding:0;    
+  border: 0px solid #CCC;    
+  overflow:hidden;
+  clear:right;
+  height:auto;
+}
+
+
+.swMain div.actionBar {
+  display:block;
+
+  clear:right;
+  margin:             3px 0 0 0;   
+  border:             1px solid #CCC;
+  padding:            0;    
+  color:              #5A5655;   
+  background-color:   #F8F8F8;
+  height:40px;
+  text-align:left;
+  overflow:auto;    
+  z-index:88; 
+  width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+
+}
+
+.swMain .stepContainer .StepTitle {
+  display:block;
+  position: relative;
+  margin:0;   
+  border:1px solid #E0E0E0;
+  padding:5px;   
+  font: bold 16px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;   
+  background-color:#E0E0E0;
+  clear:both;
+  text-align:left; 
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;    
+}
+.swMain ul.anchor {
+  position: relative;
+  display:block;
+  float:left;
+  list-style: none;
+  padding: 0px;  
+  margin: 0px 10px 0 0;
+  border: 0px solid #CCCCCC;    
+  background: transparent; /*#EEEEEE */
+  width: 30%;
+}
+.swMain ul.anchor li {
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 0px solid #E0E0E0;
+	float: none;
+	clear: both;
+	width: 100%;
+}
+/* Anchor Element Style */
+.swMain ul.anchor li a {
+	display: block;
+	position: relative;
+	float: none;
+	margin: 0;
+	padding: 3px;
+	height: 70px;
+	width: 100%;
+	text-decoration: none;
+	outline-style: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	z-index: 99;
+}
+.swMain ul.anchor li a .stepNumber {
+	position: relative;
+	float: left;
+	width: 1em;
+	text-align: center;
+	padding: 5px;
+	padding-top: 0;
+	font: bold 2em Verdana, Arial, Helvetica, sans-serif;
+}
+.swMain ul.anchor li a .stepDesc {
+	position: absolute;
+	display: block;
+	float: none;
+	text-align: left;
+	padding: 5px;
+	width: 70%;
+	font: bold 20px Verdana, Arial, Helvetica, sans-serif;
+	margin-left:1.5em;
+}
+.swMain ul.anchor li a .stepDesc small{
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+.swMain ul.anchor li a.selected{
+  color:#F8F8F8;
+  background: #EA8511;  /* EA8511 */
+  border: 1px solid #EA8511;
+  cursor:text;
+  -moz-box-shadow: 1px 5px 10px #888;
+  -webkit-box-shadow: 1px 5px 10px #888;
+  box-shadow: 1px 5px 10px #888;
+}
+.swMain ul.anchor li a.selected:hover {
+  color:#F8F8F8;  
+  background: #EA8511;  
+}
+
+.swMain ul.anchor li a.done { 
+  position:relative;
+  color:#FFF;  
+  background: #8CC63F;  
+  border: 1px solid #8CC63F;   
+  z-index:99;
+}
+.swMain ul.anchor li a.done:hover {
+  color:#5A5655;  
+  background: #8CC63F; 
+  border: 1px solid #5A5655;   
+}
+.swMain ul.anchor li a.disabled {
+  color:#CCCCCC;  
+  background: #F8F8F8;
+  border: 1px solid #CCC;  
+  cursor:text;   
+}
+.swMain ul.anchor li a.disabled:hover {
+  color:#CCCCCC;  
+  background: #F8F8F8;     
+}
+
+.swMain ul.anchor li a.error {
+  color:#6c6c6c !important;  
+  background: #f08f75 !important;
+  border: 1px solid #fb3500 !important;      
+}
+.swMain ul.anchor li a.error:hover {
+  color:#000 !important;       
+}
+
+.swMain .buttonNext {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px; 
+  -webkit-border-radius: 5px;    
+}
+.swMain .buttonDisabled {
+  color:#F8F8F8  !important;
+  background-color: #CCCCCC !important;
+  border: 1px solid #CCCCCC  !important;
+  cursor:text;    
+}
+.swMain .buttonPrevious {
+  display:block;
+  float:right;
+  margin:5px 3px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px; 
+  -webkit-border-radius: 5px;    
+}
+.swMain .buttonFinish {
+  display:block;
+  float:right;
+  margin:5px 10px 0 3px;
+  padding:5px;
+  text-decoration: none;
+  text-align: center;
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif;
+  width:100px;
+  color:#FFF;
+  outline-style:none;
+  background-color:   #5A5655;
+  border: 1px solid #5A5655;
+  -moz-border-radius  : 5px; 
+  -webkit-border-radius: 5px;    
+}
+
+/* Form Styles */
+
+.txtBox {
+  border:1px solid #CCCCCC;
+  color:#5A5655;
+  font:13px Verdana,Arial,Helvetica,sans-serif;
+  padding:2px;
+  width:430px;
+}
+.txtBox:focus {
+  border:1px solid #EA8511;
+}
+
+.swMain .loader {
+  position:relative;  
+  display:none;
+  float:left;  
+  margin: 2px 0 0 2px;
+  padding:8px 10px 8px 40px;
+  border: 1px solid #FFD700; 
+  font: bold 13px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;       
+  background: #FFF url(../images/loader.gif) no-repeat 5px;  
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:998;
+}
+.swMain .msgBox {
+  position:relative;  
+  display:none;
+  float:left;
+  margin: 4px 0 0 5px;
+  padding:5px;
+  border: 1px solid #FFD700; 
+  background-color: #FFFFDD;  
+  font: normal 12px Verdana, Arial, Helvetica, sans-serif; 
+  color:#5A5655;         
+  -moz-border-radius  : 5px;
+  -webkit-border-radius: 5px;
+  z-index:999;
+  min-width:200px;  
+}
+.swMain .msgBox .content {
+  font: normal 12px Verdana,Arial,Helvetica,sans-serif;
+  padding: 0px;
+  float:left;
+}
+.swMain .msgBox .close {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  color: #CCC;
+  display: block;
+  float: right;
+  margin: 0 0 0 5px;
+  outline-style: none;
+  padding: 0 2px 0 2px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.swMain .msgBox .close:hover{
+  color: #EA8511;
+  border: 1px solid #EA8511;  
+}
+
+/*responsive change - hide the step descriptions to give more room */
+@media screen and (max-width: 550px) {
+	.stepDesc {
+		display: none !important;
+	}
+	.anchor {
+		max-width: 3em;
+	}
+}
+
+/*Updated Styles*/
+.ax-course-filter .ax-course-filter-category, .ax-course-filter .ax-course-filter-location, .ax-course-filter .ax-course-filter-submit
+	{
+
+	display: inline-block;
+	text-align: center;
+	padding:1em;
+}
+
+.ax-course-filter select {
+	max-width: 12em;
+	margin-left: 1em;
+	min-width: 12em;
+}
+
+div.ax-course-filter {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	white-space: normal;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	.ax-course-filter .ax-course-filter-category, .ax-course-filter .ax-course-filter-location, .ax-course-filter form-control
+		{
+		display: block;
+	}
+	.ax-course-filter .ax-course-filter-submit {
+		text-align: left !important;
+	}
+}
+
+
+.ax-course-filter .form-control{
+	display:inline-block;
+}
+
+.ax-course-detail-listings form
+{
+	margin-bottom:0;
+}
+
+
+
+/*Discounts*/
+#enrolment_wizard ul{
+	margin-left:0;
+    list-style: none;
+	
+}
+#axip_discounts_holder{
+	margin-top:1em;
+    padding-bottom:1em;
+}
+#calculate_discounts{ font-size: 1em; font-weight: bold; border:0; border-radius:0}
+
+/*Responsive Changes - Course Details Page*/
+
+@media screen and (max-width: 620px) {
+.ax-details-page #table{zoom: .9;}
+.ax-wrap{width:100%; padding-right:0; padding-left:0;} /*remove any page padding to allow the record to expand to fill the page*/
+}
+@media screen and (max-width: 575px) {
+.ax-details-page #table{zoom: .8;}
+}
+@media screen and (max-width: 530px) {
+.ax-details-page #table{zoom: .7;}
+}
+@media screen and (max-width: 480px) {
+.ax-details-page #table{zoom: .5;}
+}

@@ -1,0 +1,23 @@
+{
+    "enrolment_response_text": {
+        "TYPE": "textarea",
+        "TITLE": "The text a student will see after successfully enrolling into a course.",
+        "DISPLAY": "Enrolment Success Message",
+        "DEFAULT_VALUE": "Enrolment was successfully completed. A confirmation will be sent to the student along with an invoice / receipt, if generated.",
+        "GROUPING": "Messages"
+    },
+    "enquiry_response_text": {
+        "TYPE": "textarea",
+        "TITLE": "The text a student will see after successfully enquiring into a course.",
+        "DISPLAY": "Enquiry Success Message",
+        "DEFAULT_VALUE": "Your Enquiry was successfully submitted.",
+        "GROUPING": "Messages"
+    },
+    "note_response_text": {
+        "TYPE": "textarea",
+        "TITLE": "The text a student will see after successfully submitting a note.",
+        "DISPLAY": "Contact Note Success Message",
+        "DEFAULT_VALUE": "Your data was successfully submitted.",
+        "GROUPING": "Messages"
+    }
+}

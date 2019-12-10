@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="113 86 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Custom_Size_8);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #33a0da;
+      }
+    </style>
+    <clipPath id="clip-Custom_Size_8">
+      <rect x="113" y="86" width="14" height="14"/>
+    </clipPath>
+  </defs>
+  <g id="Custom_Size_8" data-name="Custom Size 8" class="cls-1">
+    <g id="ic_info_outline_black_24px_2_" data-name="ic_info_outline_black_24px (2)" transform="translate(113 86)">
+      <path class="cls-2" d="M0,0H14V14H0Z"/>
+      <path class="cls-3" d="M7.25,10.75H8.417V7.25H7.25ZM7.833,2a5.833,5.833,0,1,0,5.833,5.833A5.835,5.835,0,0,0,7.833,2Zm0,10.5A4.667,4.667,0,1,1,12.5,7.833,4.673,4.673,0,0,1,7.833,12.5ZM7.25,6.083H8.417V4.917H7.25Z" transform="translate(-0.833 -0.833)"/>
+    </g>
+  </g>
+</svg>

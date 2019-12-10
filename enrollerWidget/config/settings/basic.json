@@ -1,0 +1,12 @@
+{
+    "config_name": {
+        "TYPE": "text",
+        "TITLE": "For reference, has no affect on content.",
+        "DISPLAY": "Configuration Name"
+    },
+    "training_org_email": {
+        "TYPE": "text",
+        "TITLE": "Training Org Email Address.",
+        "DISPLAY": "RTO Email Address"
+    }
+}

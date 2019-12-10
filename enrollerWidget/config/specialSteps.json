@@ -1,0 +1,176 @@
+{
+  "userLogin": {
+    "DISPLAY": "Login",
+    "TYPE": "user-login",
+    "AVAILABLE_ENVS": {
+      "wordpress": true,
+      "axcelerate": false,
+      "agent-portal": false,
+      "client-portal": false
+    }
+  },
+  "contactSearch": {
+    "DISPLAY": "Contact",
+    "TYPE": "contact-search"
+  },
+  "contact_address": {
+    "DISPLAY": "Address",
+    "TYPE": "address",
+    "AVAILABLE_ENVS": {
+      "wordpress": true,
+      "axcelerate": false,
+      "agent-portal": false,
+      "client-portal": false
+    }
+  },
+  "courses": {
+    "DISPLAY": "Course",
+    "TYPE": "courses",
+    "COURSE_TYPES": [
+      {
+        "DISPLAY": "Short Course",
+        "VALUE": "w"
+      },
+      {
+        "DISPLAY": "Qualification",
+        "VALUE": "p"
+      }
+    ],
+    "COLUMNS": [
+      {
+        "title": "Code",
+        "data": "CODE",
+        "className": "priority-4"
+      },
+      {
+        "title": "Course",
+        "data": "COURSENAME",
+        "className": "priority-1"
+      },
+      {
+        "title": "Instance Name",
+        "data": "NAME",
+        "className": "priority-4"
+      },
+
+      {
+        "title": "Start Date",
+        "data": "STARTDATE",
+        "orderData": 4,
+        "className": "priority-3"
+      },
+      {
+        "title": "Start_Date_SORT",
+        "data": "STARTDATE_SORT",
+        "visible": false,
+        "className": "priority-0"
+      },
+      {
+        "title": "Finish Date",
+        "data": "FINISHDATE",
+        "orderData": 6,
+        "className": "priority-4"
+      },
+      {
+        "title": "Finish_Date_SORT",
+        "data": "FINISHDATE_SORT",
+        "visible": false,
+        "className": "priority-0"
+      },
+      {
+        "title": "Location",
+        "data": "LOCATION",
+        "className": "priority-3"
+      },
+      {
+        "title": "InstanceID",
+        "data": "INSTANCEID",
+        "visible": false,
+        "className": "priority-0"
+      },
+      {
+        "title": "Vacancy",
+        "data": "PARTICIPANTVACANCY",
+        "className": "priority-2"
+      },
+      {
+        "title": "Cost",
+        "data": "DISPLAYPRICE",
+        "className": "priority-1"
+      },
+
+      {
+        "title": "Select",
+        "data": "SELECT",
+        "className": "priority-1"
+      },
+      {
+        "title": "Public",
+        "data": "PUBLIC",
+        "visible": false,
+        "className": "priority-0"
+      }
+    ]
+  },
+  "portfolio": {
+    "DISPLAY": "Documentation",
+    "TYPE": "portfolio",
+    "ISCRICOS": true,
+    "PORTFOLIOCHECKLISTID": "",
+    "portfolio_optional": false
+  },
+  "review": {
+    "DISPLAY": "Review Details",
+    "TYPE": "review"
+  },
+  "usi_validation": {
+    "DISPLAY": "USI",
+    "TYPE": "usi-validation",
+    "AVAILABLE_ENVS": {
+      "wordpress": true,
+      "axcelerate": false,
+      "agent-portal": false,
+      "client-portal": false
+    }
+  },
+  "complete": {
+    "DISPLAY": "Complete",
+    "TYPE": "complete"
+  },
+  "agentCourses": {
+    "DISPLAY": "Review Courses",
+    "TYPE": "agent-courses"
+  },
+  "groupBooking": {
+    "DISPLAY": "Review Courses",
+    "TYPE": "group-booking"
+  },
+  "billing": {
+    "DISPLAY": "Billing",
+    "TYPE": "enrol",
+    "paymentMethods": {
+      "DISPLAY": "Payment Method",
+      "TYPE": "select",
+      "VALUES": [
+        {
+          "VALUE": "invoice",
+          "DISPLAY": "Invoice"
+        },
+        {
+          "VALUE": "payment",
+          "DISPLAY": "Credit Card Payment"
+        },
+        {
+          "VALUE": "tentative",
+          "DISPLAY": "Tentative"
+        }
+      ]
+    }
+  },
+  "enrolOptions": {
+    "DISPLAY": "Enrolment Details",
+    "TYPE": "enrol-details",
+    "FIELDS": {},
+    "FIELD_ORDER": []
+  }
+}

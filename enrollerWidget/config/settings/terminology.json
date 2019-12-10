@@ -1,0 +1,131 @@
+{
+    "terminology_student": {
+        "TYPE": "text",
+        "TITLE": "Terminology to be used for Students/Users.",
+        "DISPLAY": "Terminology Student",
+        "DEFAULT_VALUE": "Student",
+        "GROUPING": "Terminology"
+    },
+    "payer_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology to be used for Payer.",
+        "DISPLAY": "Terminology Payer",
+        "DEFAULT_VALUE": "Payer",
+        "GROUPING": "Terminology"
+    },
+    "cost_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology to be used for Cost/Fees.",
+        "DISPLAY": "Terminology Cost/Fee",
+        "DEFAULT_VALUE": "Fee",
+        "GROUPING": "Terminology"
+    },
+    "course_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology to be used for Courses.",
+        "DISPLAY": "Terminology Course",
+        "DEFAULT_VALUE": "Course",
+        "GROUPING": "Terminology"
+    },
+    "instance_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology to be used for Instances.",
+        "DISPLAY": "Terminology Instance",
+        "DEFAULT_VALUE": "Course Instance",
+        "GROUPING": "Terminology"
+    },
+    "enrolling_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology to be used for enrolling.",
+        "DISPLAY": "Terminology Enrolling",
+        "DEFAULT_VALUE": "Enrolling",
+        "GROUPING": "Terminology"
+    },
+    "enrol_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology to be used in place of Enrol.",
+        "DISPLAY": "Terminology Enrol",
+        "DEFAULT_VALUE": "Enrol",
+        "GROUPING": "Terminology"
+    },
+    "enrolment_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology to be used for enrolment.",
+        "DISPLAY": "Terminology Enrolment",
+        "DEFAULT_VALUE": "Enrolment",
+        "GROUPING": "Terminology"
+    },
+    "payment_method_selector_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for the Payment Method Selector",
+        "DISPLAY": "Payment Method Terminology",
+        "DEFAULT_VALUE": "Payment Method",
+        "GROUPING": "Terminology"
+    },
+    "enrol_invoice_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for Enrolment With Invoice",
+        "DISPLAY": "Invoice Method Button Terminology",
+        "DEFAULT_VALUE": "Enrol and Send Invoice",
+        "GROUPING": "Terminology"
+    },
+    "enrol_payment_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for Enrolment With Payment",
+        "DISPLAY": "Payment Method Button Terminology",
+        "DEFAULT_VALUE": "Pay and Enrol",
+        "GROUPING": "Terminology"
+    },
+    "enrol_tentative_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for Tentative Enrolment",
+        "DISPLAY": "Tentative Method Button Terminology",
+        "DEFAULT_VALUE": "Enrol Tentatively",
+        "GROUPING": "Terminology"
+    },
+
+    "enrol_direct_debit_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for Direct Debit Enrolment - Note does not direct debit",
+        "DISPLAY": "DirectDebit Method Button Terminology",
+        "DEFAULT_VALUE": "Enrol ( Direct Debit )",
+        "GROUPING": "Terminology"
+    },
+    "ezypay_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for Ezypay Enrolment Method",
+        "DISPLAY": "EZYPAY Method Terminology",
+        "DEFAULT_VALUE": "Payment Plan",
+        "GROUPING": "Terminology"
+    },
+    "invoice_selector_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for the Payment Method Selector",
+        "DISPLAY": "Invoice Payment Method",
+        "DEFAULT_VALUE": "Send Invoice",
+        "GROUPING": "Terminology"
+    },
+
+    "cc_payment_selector_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for the Payment Method Selector",
+        "DISPLAY": "Credit Card Method",
+        "DEFAULT_VALUE": "Credit Card",
+        "GROUPING": "Terminology"
+    },
+    "tentative_selector_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for the Payment Method Selector",
+        "DISPLAY": "Tentative Method",
+        "DEFAULT_VALUE": "Tentative Enrolment",
+        "GROUPING": "Terminology"
+    },
+
+    "direct_debit_selector_terminology": {
+        "TYPE": "text",
+        "TITLE": "Terminology for the Payment Method Selector - Note does not direct debit",
+        "DISPLAY": "Direct Debit Method",
+        "DEFAULT_VALUE": "Direct Debit",
+        "GROUPING": "Terminology"
+    }
+}

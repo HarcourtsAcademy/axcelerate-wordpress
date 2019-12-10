@@ -1,0 +1,207 @@
+.swMain {
+float:none;
+}
+
+.bookings_closed {
+margin:0px !important;
+}
+
+input {
+padding-left:5px;
+font-size: 16px;
+border-radius: 5px;
+border: 0px;
+width:280px;
+height:40px;
+font-family: Montserrat;
+}
+
+#ax-courseinstance-table td:nth-child(1) {
+font-weight:bold;
+}​ 
+
+#ax-courseinstance-table td:nth-last-child(5) {
+font-weight:bold;
+}​ 
+
+
+.ax-list-heading{
+margin-bottom:20px;
+}
+
+
+.axip_search {
+margin-left: 5px;
+border-radius: 5px;
+background-color: #ee3c26;
+color: #ffffff;
+border: 0px;
+font-family: Montserrat;
+width: 65px;
+font-size:20px;
+}
+
+.axip_search:hover {
+color: #ee3c26;
+background-color: #ffffff;
+}
+
+#axip_given_name {
+width:40%;
+}
+
+#axip_preferred_name {
+width:40%;
+}
+
+#axip_middle_name {
+width:40%;
+}
+
+#axip_last_name {
+width:40%;
+}
+
+#axip_dob {
+width:20%;
+}
+
+#axip_sex {
+width:15%;
+}
+
+#axip_usi {
+width:20%;
+}
+
+#axip_lui {
+width:20%;
+}
+
+#same_as_street_address {
+width:20px;
+height:10px;
+}
+
+.btn-primary {
+height:62px;
+border-radius:5px;
+background-color:#404041!important;
+font-family: Montserrat;
+color:#ffffff;
+}
+
+.btn-primary:hover {
+border-radius:5px;
+background-color:#ffffff!important;
+font-family: Montserrat;
+color:#ee3c26;
+}
+
+td {
+padding: 5px 20px 0px 0px;
+}
+
+#workshopOutlineContainer h2{
+padding-top:20px;
+}
+
+.ax_button {
+height:62px;
+float:left;
+width: 200px;
+margin-right:20px;
+border-radius:40px;
+background-color:#ffffff;
+border: 2px solid #ee3c26;
+font-family: Montserrat;
+font-size:20px;
+text-align: center;
+color:#ee3c26;
+padding:15px;
+margin-bottom:30px;
+}
+
+.ax_button:hover {
+border-radius:40px;
+background-color:#ee3c26;
+border: 2px solid #ee3c26;
+font-family: Montserrat;
+font-size:20px;
+text-align: center;
+color:#ffffff;
+padding:15px;
+margin-bottom:30px;
+}
+
+td button {
+border-radius:5px;
+background-color:#ffffff;
+border: 2px solid #ee3c26;
+font-family: Montserrat;
+}
+
+td button:hover {
+border-radius:5px;
+background-color:#ee3c26;
+border: 2px solid #ee3c26;
+font-family: Montserrat;
+color:#ffffff;
+}
+
+#course_list td {
+padding-bottom:50px;
+}
+
+a {
+font-size:16px;
+color: #ee3c26;
+font-family: Montserrat;
+}
+
+a:focus {
+font-size:16px;
+color: #ee3c26;
+font-family: Montserrat;
+}
+
+a:hover {
+text-decoration:none;
+color:#F17D6F;
+}
+
+a:visited {
+text-decoration:none;
+color:#BB2F1E
+}
+
+h1 {
+font-size:20px;
+font-family: Montserrat;
+}
+
+h3 {
+font-size:20px;
+font-family: Montserrat;
+}
+
+h2 {
+padding-bottom:7px;
+font-size:20px;
+font-family: Montserrat;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+#container {
+padding:25px!important;
+width: 1170px;
+margin: 0 auto;
+}
+
+.fc-event {
+background-color:#ee3c26;
+border: none;
+padding:1px;
+}
+

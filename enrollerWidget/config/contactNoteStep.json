@@ -1,0 +1,104 @@
+{
+    "DISPLAY": {
+        "TYPE": "text",
+        "TITLE": "The Step Name shown to students in the step menu. It is reccommended to keep these short",
+        "DISPLAY": "Display Name",
+        "DEFAULT_VALUE": "Contact Note",
+        "GROUPING": "Standard Options",
+        "REQUIRED": true
+    },
+    "TYPE": {
+        "TYPE": "text",
+        "TITLE": "Step Type",
+        "DISPLAY": "Step Type",
+        "DEFAULT_VALUE": "contact-note",
+        "EDITABLE": false,
+        "GROUPING": "Standard Options",
+        "REQUIRED": true
+    },
+
+    "STEP_ID": {
+        "DISPLAY": "Step ID",
+        "TYPE": "text",
+        "TITLE": "The Internal ID used to identify the step. Not shown to students.",
+        "DEFAULT_VALUE": "contact_note",
+        "MAKE_UNIQUE": true,
+        "GROUPING": "Standard Options",
+        "REQUIRED": true
+    },
+
+    "CONTACT_TYPE": {
+        "DISPLAY": "Contact Type",
+        "TYPE": "select",
+        "TITLE": "Type of Contact to be Updated. <p>Student, Payer, User, based on the role of the contact in the enrolment.</p>",
+        "VALUES": [
+            {
+                "DISPLAY": "Student",
+                "VALUE": "student"
+            },
+            {
+                "DISPLAY": "Payer",
+                "VALUE": "payer"
+            },
+            {
+                "DISPLAY": "User",
+                "VALUE": "user"
+            }
+        ],
+        "DEFAULT_VALUE": "student",
+        "GROUPING": "Advanced Options"
+    },
+
+    "noteCodeID": {
+        "DISPLAY": "Note Code",
+        "TYPE": "text",
+        "TITLE": "The NCID, or Note Code ID of the note type to be added. 88 is System Generated Note",
+        "DEFAULT_VALUE": 88,
+        "GROUPING": "Advanced Options",
+        "REQUIRED": true
+    },
+    "emailTo": {
+        "DISPLAY": "Email To",
+        "TYPE": "text",
+        "TITLE": "The email address, or comma separated list of emails to be notified on submission. <br/> NOTE: If sending as contact note, this must be contactIDs and not emails. Note for Enquiry this may be handled through Workflow.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Advanced Options"
+    },
+    "HEADER": {
+        "DISPLAY": "Step Header",
+        "TYPE": "text",
+        "TITLE": "This Text appears above the step as a header.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+
+    "BLURB_TOP": {
+        "DISPLAY": "Top Blurb",
+        "TYPE": "textarea",
+        "TITLE": "An information blurb that appears above any content on the step.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+    "BLURB_BOTTOM": {
+        "DISPLAY": "Bottom Blurb",
+        "TYPE": "textarea",
+        "TITLE": "An information blurb that appears below any content on the step.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+    "STEP_TERMS": {
+        "DISPLAY": "Step Terms",
+        "TYPE": "textarea",
+        "TITLE": "Adds a terms and conditions approval element to the step, required to be completed before the step is considered complete.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+    "BUTTON_TEXT": {
+        "DISPLAY": "Button Text",
+        "TYPE": "text",
+        "TITLE": "The button text for the Submit button for a step. It is reccommended to keep these short.",
+        "DEFAULT_VALUE": "Save",
+        "GROUPING": "Appearance"
+    },
+    "FIELDS": {}
+}

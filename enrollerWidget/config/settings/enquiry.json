@@ -1,0 +1,60 @@
+{
+    "enquiry_requires_course": {
+        "TYPE": "select",
+        "TITLE": "Enquiries can only be submitted if a course has been selected / preselected for the Widget.",
+        "DISPLAY": "Enquiry Requires Course",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enquiry Settings"
+    },
+    "enquiry_requires_complete": {
+        "TYPE": "select",
+        "TITLE": "Enquiries can only be submitted if there are no incomplete steps the Widget (aside from enrol).",
+        "DISPLAY": "Enquiry Requires Complete Steps",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enquiry Settings"
+    },
+
+    "enquiry_single_click": {
+        "TYPE": "select",
+        "TITLE": "Changes the Enquiry widget to process login/contact creation along with the full form.",
+        "DISPLAY": "Enquiry Widget - Single Click",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enquiry Settings",
+        "AVAILABLE_ENVS": {
+            "wordpress": true,
+            "axcelerate": false,
+            "agent-portal": false,
+            "client-portal": false
+        }
+    }
+}

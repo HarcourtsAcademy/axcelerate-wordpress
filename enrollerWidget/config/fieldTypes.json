@@ -1,0 +1,82 @@
+{
+    "search-select": {
+        "TYPE": "search-select",
+        "DESCRIPTION": "Searchable Select",
+        "CUSTOM_AVAILABLE": true
+    },
+    "multi-select": {
+        "TYPE": "multi-select",
+        "DESCRIPTION": "Searchable Multi-Select",
+        "CUSTOM_AVAILABLE": true
+    },
+    "select": {
+        "TYPE": "select",
+        "DESCRIPTION": "Standard Select List",
+        "CUSTOM_AVAILABLE": true
+    },
+    "text": {
+        "TYPE": "text",
+        "DESCRIPTION": "Text Input",
+        "CUSTOM_AVAILABLE": true
+    },
+    "text-area": {
+        "TYPE": "text-area",
+        "DESCRIPTION": "Text Area",
+        "CUSTOM_AVAILABLE": true
+    },
+    "search-select-add": {
+        "TYPE": "search-select-add",
+        "DESCRIPTION": "Searchable Select With Add New Value",
+        "CUSTOM_AVAILABLE": true
+    },
+    "date": {
+        "TYPE": "date",
+        "DESCRIPTION": "Date Input",
+        "CUSTOM_AVAILABLE": true
+    },
+    "email": {
+        "TYPE": "email",
+        "DESCRIPTION": "Email Address Field",
+        "CUSTOM_AVAILABLE": true
+    },
+    "checkbox": {
+        "TYPE": "checkbox",
+        "DESCRIPTION": "Set of Checkboxes",
+        "CUSTOM_AVAILABLE": true
+    },
+    "modifier-checkbox": {
+        "TYPE": "modifier-checkbox",
+        "DESCRIPTION": "Checkboxes with Modifiers",
+        "CUSTOM_AVAILABLE": false
+    },
+    "button": {
+        "TYPE": "button",
+        "DESCRIPTION": "Button",
+        "CUSTOM_AVAILABLE": true
+    },
+    "flip-switch": {
+        "TYPE": "flip-switch",
+        "DESCRIPTION": "Flip Switch",
+        "CUSTOM_AVAILABLE": true
+    },
+    "information": {
+        "TYPE": "information",
+        "DESCRIPTION": "Information / Grouping",
+        "CUSTOM_AVAILABLE": true
+    },
+    "divider": {
+        "TYPE": "divider",
+        "DESCRIPTION": "Divider / Reverse Information Field",
+        "CUSTOM_AVAILABLE": true
+    },
+    "signature": {
+        "TYPE": "signature",
+        "DESCRIPTION": "Signature Field",
+        "CUSTOM_AVAILABLE": true
+    },
+    "info_expandable": {
+        "TYPE": "info_expandable",
+        "DESCRIPTION": "Expandable Info Box",
+        "CUSTOM_AVAILABLE": true
+    }
+}

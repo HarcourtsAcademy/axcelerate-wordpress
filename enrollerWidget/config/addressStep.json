@@ -1,0 +1,115 @@
+{
+    "DISPLAY": {
+        "TYPE": "text",
+        "TITLE": "The Step Name shown to students in the step menu. It is reccommended to keep these short",
+        "DISPLAY": "Display Name",
+        "DEFAULT_VALUE": "Address",
+        "GROUPING": "Standard Options",
+        "REQUIRED": true
+    },
+    "TYPE": {
+        "TYPE": "text",
+        "TITLE": "Step Type",
+        "DISPLAY": "Step Type",
+        "DEFAULT_VALUE": "address",
+        "EDITABLE": false,
+        "GROUPING": "Standard Options",
+        "REQUIRED": true
+    },
+
+    "STEP_ID": {
+        "DISPLAY": "Step ID",
+        "TYPE": "text",
+        "TITLE": "The Internal ID used to identify the step. Not shown to students.",
+        "DEFAULT_VALUE": "address",
+        "MAKE_UNIQUE": true,
+        "GROUPING": "Standard Options",
+        "REQUIRED": true
+    },
+
+    "CONTACT_TYPE": {
+        "DISPLAY": "Contact Type",
+        "TYPE": "select",
+        "TITLE": "Type of Contact to be Updated. <p>Student, Payer, User, based on the role of the contact in the enrolment.</p>",
+        "VALUES": [
+            {
+                "DISPLAY": "Student",
+                "VALUE": "student"
+            },
+            {
+                "DISPLAY": "Payer",
+                "VALUE": "payer"
+            },
+            {
+                "DISPLAY": "User",
+                "VALUE": "user"
+            }
+        ],
+        "DEFAULT_VALUE": "student",
+        "GROUPING": "Advanced Options"
+    },
+
+    "HEADER": {
+        "DISPLAY": "Step Header",
+        "TYPE": "text",
+        "TITLE": "This Text appears above the step as a header.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+
+    "BLURB_TOP": {
+        "DISPLAY": "Top Blurb",
+        "TYPE": "textarea",
+        "TITLE": "An information blurb that appears above any content on the step.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+    "BLURB_BOTTOM": {
+        "DISPLAY": "Bottom Blurb",
+        "TYPE": "textarea",
+        "TITLE": "An information blurb that appears below any content on the step.",
+        "DEFAULT_VALUE": "",
+        "GROUPING": "Appearance"
+    },
+    "BUTTON_TEXT": {
+        "DISPLAY": "Button Text",
+        "TYPE": "text",
+        "TITLE": "The button text for the Submit button for a step. It is reccommended to keep these short.",
+        "DEFAULT_VALUE": "Save",
+        "GROUPING": "Appearance"
+    },
+    "REQUIRED": {
+        "DISPLAY": "Required",
+        "TYPE": "select",
+        "TITLE": "Requires addresses to be specified",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": "true"
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": "false"
+            }
+        ],
+        "DEFAULT_VALUE": "false",
+        "GROUPING": "Options"
+    },
+    "AUS_ADDRESS": {
+        "DISPLAY": "Australian Addresses",
+        "TYPE": "select",
+        "TITLE": "Only search for Australian Addressses",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": "true"
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": "false"
+            }
+        ],
+        "DEFAULT_VALUE": "true",
+        "GROUPING": "Options"
+    }
+}

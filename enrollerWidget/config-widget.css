@@ -1,0 +1,2242 @@
+/*
+
+Popups - Standalone JQM Styling
+
+
+*/
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-popup-arrow-container.ui-popup-arrow-t {
+    top: -10px;
+    clip: rect(-1000px, 2000px, 10px, -1000px);
+}
+
+.ui-popup-arrow-container {
+    position: absolute;
+}
+
+.ui-popup-arrow-container {
+    width: 20px;
+    height: 20px;
+}
+
+.ui-popup-container {
+    z-index: 1100;
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    outline: 0;
+}
+
+.ui-popup.ui-corner-all > .ui-popup-arrow-guide {
+    left: 0.6em;
+    right: 0.6em;
+    top: 0.6em;
+    bottom: 0.6em;
+}
+
+.ui-popup > .ui-popup-arrow-guide {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+
+.ui-popup-screen.in {
+    opacity: 0.5;
+    filter: Alpha(Opacity = 50);
+}
+
+.ui-popup-screen {
+    background-image: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 1px;
+    position: absolute;
+    filter: Alpha(Opacity = 0);
+    opacity: 0;
+    z-index: 1099;
+}
+
+.in {
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 350ms;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 350ms;
+    animation-timing-function: ease-out;
+    animation-duration: 350ms;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-popup {
+    position: relative;
+}
+
+.ui-body-b {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-overlay-shadow {
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.ui-btn-corner-all,
+.ui-corner-all {
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+}
+
+.ui-corner-all {
+    -webkit-border-radius: 0.3125em;
+    border-radius: 0.3125em;
+}
+
+.ui-popup-arrow-container.ui-popup-arrow-t .ui-popup-arrow {
+    left: -4.142135623px;
+    top: 5.857864376px;
+}
+
+.ui-popup-arrow-container .ui-popup-arrow {
+    width: 28.284271247px;
+    height: 28.284271247px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ui-overlay-shadow {
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-body-b {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-popup-arrow {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.ui-body-b {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-overlay-shadow {
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.ui-icon-info:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M7%2C0C3.134%2C0%2C0%2C3.134%2C0%2C7s3.134%2C7%2C7%2C7s7-3.134%2C7-7S10.866%2C0%2C7%2C0z%20M7%2C2c0.552%2C0%2C1%2C0.447%2C1%2C1S7.552%2C4%2C7%2C4S6%2C3.553%2C6%2C3%20S6.448%2C2%2C7%2C2z%20M9%2C11H5v-1h1V6H5V5h3v5h1V11z%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+/*
+
+End Popups.
+
+*/
+
+/* AGENT PORTAL CSS*/
+#enroller_config_holder * {
+    font-weight: 500;
+    color: #3e3e3e;
+}
+
+#enroller_config_holder.agent-portal .ax-step-input-holder input {
+    min-width: 100%;
+    width: 100%;
+}
+
+#enroller_config_holder.agent-portal .ax-step-input-holder textarea {
+    width: 400px;
+}
+
+#enroller_config_holder.agent-portal {
+}
+
+#enroller_config_holder.agent-portal div.ui-input-text {
+    width: 400px;
+    display: inline-block;
+}
+
+#enroller_config_holder.agent-portal div.chosen-search div.ui-input-text {
+    width: 100%;
+}
+
+#enroller.enroller-widget {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60em;
+}
+
+#enroller_config_table td:last-child {
+    width: 10em;
+}
+
+a.ax-config-load {
+    display: inline-block;
+}
+
+#enroller_config_table_wrapper.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+#enroller_config_table_wrapper.dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button.current:hover,
+#enroller_config_table_wrapper.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #2d5b83;
+    background: #2d5b83;
+    border-color: #2d5b83;
+    color: #fff !important;
+}
+
+#enroller_config_holder table.dataTable thead th {
+    background: transparent;
+    border: none;
+    border-collapse: collapse;
+    padding: 0.8em;
+    text-align: left;
+    color: #38c !important;
+}
+
+#enroller_config_holder table.dataTable th:hover:not(:focus):not(.no-hover) {
+    background: #0c2f4e;
+    color: #fff !important;
+    text-shadow: none;
+    border-color: #0c2f4e;
+}
+
+#enroller_config_holder.agent-portal .ui-btn {
+    border: none;
+    border: 0;
+}
+
+.agent-portal .ui-btn.ui-btn-icon-notext {
+    background: none;
+}
+
+#enroller_config_widget {
+    margin-top: 2em;
+}
+
+#enroller_config_holder.agent-portal h2 {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#enroller_config_holder.agent-portal .dt-rowReorder-moving td,
+#enroller_config_holder.agent-portal .dt-rowReorder-moving td.reorder,
+#enroller_config_holder.agent-portal tr.ax-active-config td,
+#enroller_config_holder.agent-portal tr.ax-active-config td.sorting_1 {
+    background-color: #2d5b83;
+    background: #2d5b83;
+    border-color: #2d5b83;
+    color: #fff !important;
+}
+
+#enroller_config_holder * {
+    text-shadow: none;
+}
+
+/* WP CSS */
+#enroller_config_holder:not(.agent-portal) h2 {
+    margin-top: 0;
+}
+div#default_configuration_chosen {
+    margin-top: 10px;
+    vertical-align: top;
+    max-width: 20em;
+}
+
+/*STANDARD CSS*/
+#enroller_config_table tr th:nth-child(3),
+#enroller_config_table tr td:nth-child(3),
+#enroller_config_table tr th:nth-child(2),
+#enroller_config_table tr td:nth-child(2) {
+    max-width: 20em;
+    width: auto !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#enroller_config_table tr th {
+    width: auto !important;
+}
+
+#enroller_config_holder input:disabled {
+    -webkit-filter: invert(10%);
+    filter: invert(10%);
+    background: #dcdcdc;
+}
+
+div.ax-invisible-label {
+    width: 14em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#enroller_config_holder table.dt-rowReorder-moving,
+table.dt-rowReorder-moving .reorder,
+#enroller_config_holder table tr.ax-active-config td,
+#enroller_config_holder table tr.ax-active-config td.sorting_1 {
+    background-color: #2d5b83;
+    background: #2d5b83;
+    border-color: #2d5b83;
+    color: #fff !important;
+}
+
+.reorder {
+    cursor: move;
+}
+
+.ui-icon-delete:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%2214%2C3%2011%2C0%207%2C4%203%2C0%200%2C3%204%2C7%200%2C11%203%2C14%207%2C10%2011%2C14%2014%2C11%2010%2C7%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.ui-icon-edit:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M1%2C10l-1%2C4l4-1l7-7L8%2C3L1%2C10z%20M11%2C0L9%2C2l3%2C3l2-2L11%2C0z%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.ui-icon-eye:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20style%3D%22fill%3A%23FFFFFF%3B%22%20d%3D%22M7%2C2C3%2C2%2C0%2C7%2C0%2C7s3%2C5%2C7%2C5s7-5%2C7-5S11%2C2%2C7%2C2z%20M7%2C10c-1.657%2C0-3-1.344-3-3c0-1.657%2C1.343-3%2C3-3%20s3%2C1.343%2C3%2C3C10%2C8.656%2C8.657%2C10%2C7%2C10z%20M7%2C6C6.448%2C6%2C6%2C6.447%2C6%2C7c0%2C0.553%2C0.448%2C1%2C1%2C1s1-0.447%2C1-1C8%2C6.447%2C7.552%2C6%2C7%2C6z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.ui-icon-check:after,
+/* Used ui-checkbox-on twice to increase specificity. If active state has background-image for gradient this rule overrides. */
+    html
+    .ui-btn.ui-checkbox-on.ui-checkbox-on:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20style%3D%22fill%3A%23FFFFFF%3B%22%20points%3D%2214%2C4%2011%2C1%205.003%2C6.997%203%2C5%200%2C8%204.966%2C13%204.983%2C12.982%205%2C13%20%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.ui-icon-plus:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%2214%2C5%209%2C5%209%2C0%205%2C0%205%2C5%200%2C5%200%2C9%205%2C9%205%2C14%209%2C14%209%2C9%2014%2C9%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+/* Buttons and icons */
+.ui-btn {
+    font-size: 16px;
+    margin: 0.5em 0;
+    padding: 0.7em 1em;
+    display: block;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+.ui-btn-icon-notext,
+.ui-header button.ui-btn.ui-btn-icon-notext,
+.ui-footer button.ui-btn.ui-btn-icon-notext {
+    padding: 0;
+    width: 1.75em;
+    height: 1.75em;
+    text-indent: -9999px;
+    white-space: nowrap !important;
+}
+
+.ui-mini {
+    font-size: 12.5px;
+}
+
+.ui-mini .ui-btn {
+    font-size: inherit;
+}
+
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after,
+.ui-btn-icon-notext:after {
+    background-color: #666;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+.ui-btn {
+    font-size: 16px;
+    margin: 0.5em 0;
+    padding: 0.7em 1em;
+    display: block;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ui-btn-icon-notext,
+.ui-header button.ui-btn.ui-btn-icon-notext,
+.ui-footer button.ui-btn.ui-btn-icon-notext {
+    padding: 0;
+    width: 1.75em;
+    height: 1.75em;
+    text-indent: -9999px;
+    white-space: nowrap !important;
+}
+
+.ui-mini {
+    font-size: 12.5px;
+}
+
+.ui-mini .ui-btn {
+    font-size: inherit;
+}
+/* Make buttons in toolbars default to mini and inline. */
+.ui-header .ui-btn,
+.ui-footer .ui-btn {
+    font-size: 12.5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ui-header .ui-controlgroup .ui-btn-icon-notext,
+.ui-footer .ui-controlgroup .ui-btn-icon-notext {
+    font-size: 12.5px;
+}
+/* To ensure same top and left/right position when ui-btn-left/right are added to something other than buttons. */
+.ui-header .ui-btn-left,
+.ui-header .ui-btn-right {
+    font-size: 12.5px;
+}
+
+.ui-mini.ui-btn-icon-notext,
+.ui-mini .ui-btn-icon-notext,
+.ui-header .ui-btn-icon-notext,
+.ui-footer .ui-btn-icon-notext {
+    font-size: 16px;
+    padding: 0;
+}
+
+.ui-btn-inline {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.625em;
+}
+
+.ui-btn-icon-left {
+    padding-left: 2.5em;
+}
+
+.ui-btn-icon-right {
+    padding-right: 2.5em;
+}
+
+.ui-btn-icon-top {
+    padding-top: 2.5em;
+}
+
+.ui-btn-icon-bottom {
+    padding-bottom: 2.5em;
+}
+
+.ui-header .ui-btn-icon-top,
+.ui-footer .ui-btn-icon-top,
+.ui-header .ui-btn-icon-bottom,
+.ui-footer .ui-btn-icon-bottom {
+    padding-left: 0.3125em;
+    padding-right: 0.3125em;
+}
+
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after,
+.ui-btn-icon-notext:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+.ui-btn-icon-notext:after,
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after {
+    top: 50%;
+    margin-top: -11px;
+}
+
+.ui-btn-icon-left:after {
+    left: 0.5625em;
+}
+
+.ui-btn-icon-right:after {
+    right: 0.5625em;
+}
+
+.ui-mini.ui-btn-icon-left:after,
+.ui-mini .ui-btn-icon-left:after,
+.ui-header .ui-btn-icon-left:after,
+.ui-footer .ui-btn-icon-left:after {
+    left: 0.37em;
+}
+
+.ui-mini.ui-btn-icon-right:after,
+.ui-mini .ui-btn-icon-right:after,
+.ui-header .ui-btn-icon-right:after,
+.ui-footer .ui-btn-icon-right:after {
+    right: 0.37em;
+}
+
+.ui-btn-icon-notext:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after {
+    left: 50%;
+    margin-left: -11px;
+}
+
+.ui-btn-icon-top:after {
+    top: 0.5625em;
+}
+
+.ui-btn-icon-bottom:after {
+    top: auto;
+    bottom: 0.5625em;
+}
+/* Buttons in header position classes */
+.ui-header .ui-btn-left,
+.ui-header .ui-btn-right,
+.ui-btn-left > [class*="ui-"],
+.ui-btn-right > [class*="ui-"] {
+    margin: 0;
+}
+
+.ui-btn-left,
+.ui-btn-right {
+    position: absolute;
+    top: 0.24em;
+}
+
+.ui-btn-left {
+    left: 0.4em;
+}
+
+.ui-btn-right {
+    right: 0.4em;
+}
+
+.ui-btn-icon-notext.ui-btn-left {
+    top: 0.3125em;
+    left: 0.3125em;
+}
+
+.ui-btn-icon-notext.ui-btn-right {
+    top: 0.3125em;
+    right: 0.3125em;
+}
+/* Button elements */
+button.ui-btn,
+.ui-controlgroup-controls button.ui-btn-icon-notext {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+}
+
+button.ui-btn-inline,
+.ui-header button.ui-btn,
+.ui-footer button.ui-btn {
+    width: auto;
+}
+
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after,
+.ui-btn-icon-notext:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+/* Firefox adds a 1px border in a button element. We negate this to make sure they have the same height as other buttons in controlgroups. */
+button.ui-btn::-moz-focus-inner {
+    border: 0;
+}
+
+button.ui-btn-icon-notext,
+.ui-controlgroup-horizontal .ui-controlgroup-controls button.ui-btn {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 1.75em;
+}
+
+.ui-btn-icon-right {
+    padding-right: 2.5em;
+}
+
+/*CUSTOM*/
+a.ax-link {
+    margin-right: 0.5em;
+}
+
+.ax-export-settings {
+    display: inline-block;
+}
+
+.ui-btn-icon-notext {
+    background-color: transparent;
+}
+
+#enroller_config_holder {
+    background: #fcfcfc;
+    padding: 1em;
+    max-width: 80em;
+}
+
+#enroller_config_holder input.ax-config-text-input,
+#enroller_config_holder input[type="text"],
+#enroller_config_holder textarea,
+#enroller_config_holder .ui-btn {
+    -webkit-border-radius: 0.3125em;
+    border-radius: 0.3125em;
+    border-top-left-radius: 0.3125em;
+    border-top-right-radius: 0.3125em;
+    border-bottom-right-radius: 0.3125em;
+    border-bottom-left-radius: 0.3125em;
+}
+
+#enroller_config_holder input.ax-config-text-input,
+#enroller_config_holder input[type="text"],
+#enroller_config_holder textarea {
+    padding: 0.5em;
+}
+
+.dt-rowReorder-moving,
+.dt-rowReorder-moving .reorder {
+    background-color: #53a8e0 !important;
+    color: #fff;
+}
+
+.reorder {
+    cursor: move;
+}
+
+#enroller_config_holder .ax-step-input-holder {
+    margin-bottom: 0.5em;
+}
+
+#enroller_config_holder .ax-step-input-holder input,
+#enroller_config_holder .ax-step-input-holder textarea {
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+    width: 400px;
+    display: inline-block;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+#enroller_config_holder .ax-step-input-holder .ax-step-input-label {
+    display: inline-block;
+    width: 14em;
+    text-align: right;
+    font-size: 1em;
+    margin-right: 1em;
+    vertical-align: middle;
+}
+
+#enroller_config_holder .chosen-single {
+    height: auto;
+    border: 1px solid #aaa;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #f6f6f6;
+    vertical-align: top;
+}
+
+#enroller_config_holder #ax_add_custom_field {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#enroller_config_holder .dataTable {
+    width: 100% !important;
+}
+
+.ax-step-input-holder a.ui-btn-icon-notext {
+    margin-left: 1em;
+}
+
+.chosen-search input {
+    width: 100% !important;
+}
+
+.ui-btn-icon-notext {
+    vertical-align: middle;
+}
+
+a.ui-btn.ax-field-save,
+a.ui-btn.ax-step-save,
+a.ui-btn.ax-field-save-v {
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+a.ax-config-delete,
+a.ax-config-edit,
+a.ax-config-duplicate {
+    display: inline-block;
+}
+
+div.ax-field-list-holder {
+    margin-bottom: 2em;
+}
+
+div.ax-step-content {
+    margin-top: 1em;
+}
+
+div.ax-new-field,
+div.ax-new-step {
+    background: #eaf3f9;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+a.ax-config-close {
+    float: right;
+    margin-top: -0.3em;
+}
+
+
+
+#enroller_config_holder .ax-config-tooltip:after {
+}
+
+#enroller_config_holder div.chosen-container,
+#enroller_config_holder textarea {
+    margin-right: 2px;
+}
+
+.ax-config-controls {
+    border-top: 2px #ddd solid;
+    margin-top: 2em;
+    clear: left;
+    padding-top: 1em;
+}
+
+.ax-save-field,
+.ax-save-field-v,
+.ax-save-field-e,
+.ax-save-field-t {
+    width: 100%;
+    border-bottom: 2px #ddd solid;
+}
+
+.ax-save-field label,
+.ax-save-step label {
+    opacity: 0;
+}
+
+/*
+
+Popups - Standalone JQM Styling
+
+
+*/
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-popup-arrow-container.ui-popup-arrow-t {
+    top: -10px;
+    clip: rect(-1000px, 2000px, 10px, -1000px);
+}
+
+.ui-popup-arrow-container {
+    position: absolute;
+}
+
+.ui-popup-arrow-container {
+    width: 20px;
+    height: 20px;
+}
+
+.ui-popup-container {
+    z-index: 1100;
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    outline: 0;
+}
+
+.ui-popup.ui-corner-all > .ui-popup-arrow-guide {
+    left: 0.6em;
+    right: 0.6em;
+    top: 0.6em;
+    bottom: 0.6em;
+}
+
+.ui-popup > .ui-popup-arrow-guide {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    visibility: hidden;
+}
+
+.ui-popup-screen.in {
+    opacity: 0.5;
+    filter: Alpha(Opacity = 50);
+}
+
+.ui-popup-screen {
+    background-image: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 1px;
+    position: absolute;
+    filter: Alpha(Opacity = 0);
+    opacity: 0;
+    z-index: 1099;
+}
+
+.in {
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 350ms;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 350ms;
+    animation-timing-function: ease-out;
+    animation-duration: 350ms;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-popup {
+    position: relative;
+}
+
+.ui-body-b {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-overlay-shadow {
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.ui-btn-corner-all,
+.ui-corner-all {
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+}
+
+.ui-corner-all {
+    -webkit-border-radius: 0.3125em;
+    border-radius: 0.3125em;
+}
+
+.ui-popup-arrow-container.ui-popup-arrow-t .ui-popup-arrow {
+    left: -4.142135623px;
+    top: 5.857864376px;
+}
+
+.ui-popup-arrow-container .ui-popup-arrow {
+    width: 28.284271247px;
+    height: 28.284271247px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ui-overlay-shadow {
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-body-b {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-popup-arrow {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.ui-body-b {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.ui-body-b,
+.ui-page-theme-b .ui-body-inherit,
+html .ui-bar-b .ui-body-inherit,
+html .ui-body-b .ui-body-inherit,
+html body .ui-group-theme-b .ui-body-inherit,
+html .ui-panel-page-container-b {
+    background-color: #2a2a2a;
+    border-color: #1d1d1d;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+}
+
+.ui-overlay-shadow {
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+.ui-icon-info:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M7%2C0C3.134%2C0%2C0%2C3.134%2C0%2C7s3.134%2C7%2C7%2C7s7-3.134%2C7-7S10.866%2C0%2C7%2C0z%20M7%2C2c0.552%2C0%2C1%2C0.447%2C1%2C1S7.552%2C4%2C7%2C4S6%2C3.553%2C6%2C3%20S6.448%2C2%2C7%2C2z%20M9%2C11H5v-1h1V6H5V5h3v5h1V11z%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+/*
+
+End Popups.
+
+*/
+
+/* AGENT PORTAL CSS*/
+#enroller_config_holder * {
+    font-weight: 500;
+    color: #3e3e3e;
+}
+
+#enroller_config_holder.agent-portal .ax-step-input-holder input {
+    min-width: 100%;
+    width: 100%;
+}
+
+#enroller_config_holder.agent-portal .ax-step-input-holder textarea {
+    width: 400px;
+}
+
+#enroller_config_holder.agent-portal {
+    max-width: 60em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#enroller_config_holder.agent-portal div.ui-input-text {
+    width: 400px;
+    display: inline-block;
+}
+
+#enroller_config_holder.agent-portal div.chosen-search div.ui-input-text {
+    width: 100%;
+}
+
+#enroller.enroller-widget {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60em;
+}
+
+#enroller_config_table td:last-child {
+    width: 10em;
+}
+
+a.ax-config-load {
+    display: inline-block;
+}
+
+#enroller_config_table_wrapper.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+#enroller_config_table_wrapper.dataTables_wrapper
+    .dataTables_paginate
+    .paginate_button.current:hover,
+#enroller_config_table_wrapper.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #2d5b83;
+    background: #2d5b83;
+    border-color: #2d5b83;
+    color: #fff !important;
+}
+
+#enroller_config_holder table.dataTable thead th {
+    background: transparent;
+    border: none;
+    border-collapse: collapse;
+    padding: 0.8em;
+    text-align: left;
+    color: #38c;
+}
+
+#enroller_config_holder table.dataTable th:hover:not (:focus ):not (.no-hover
+	) {
+    background: #0c2f4e;
+    color: #fff !important;
+    text-shadow: none;
+    border-color: #0c2f4e;
+}
+
+#enroller_config_holder.agent-portal .ui-btn {
+    border: none;
+}
+
+.agent-portal .ui-btn.ui-btn-icon-notext {
+    background: none;
+}
+
+#enroller_config_widget {
+    margin-top: 2em;
+}
+
+#enroller_config_holder.agent-portal h2 {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#enroller_config_holder.agent-portal .dt-rowReorder-moving,
+#enroller_config_holder.agent-portal .dt-rowReorder-moving .reorder,
+#enroller_config_holder.agent-portal tr.ax-active-config td,
+#enroller_config_holder.agent-portal tr.ax-active-config td.sorting_1 {
+    background-color: #2d5b83;
+    background: #2d5b83;
+    border-color: #2d5b83;
+    color: #fff !important;
+}
+
+#enroller_config_holder * {
+    text-shadow: none;
+}
+
+/* WP CSS */
+#enroller_config_holder:not (.agent-portal ) h2 {
+    margin-top: 0;
+}
+
+/*STANDARD CSS*/
+#enroller_config_table tr th:nth-child(3),
+#enroller_config_table tr td:nth-child(3),
+#enroller_config_table tr th:nth-child(2),
+#enroller_config_table tr td:nth-child(2) {
+    max-width: 20em;
+    width: auto !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#enroller_config_table tr th {
+    width: auto !important;
+}
+
+#enroller_config_holder input:disabled {
+    -webkit-filter: invert(10%);
+    filter: invert(10%);
+    background: #dcdcdc;
+}
+
+div.ax-invisible-label {
+    width: 14em;
+    margin-right: 1em;
+    display: inline-block;
+}
+
+#enroller_config_holder table.dt-rowReorder-moving,
+table.dt-rowReorder-moving .reorder,
+#enroller_config_holder table tr.ax-active-config td,
+#enroller_config_holder table tr.ax-active-config td.sorting_1 {
+    background-color: #2d5b83;
+    background: #2d5b83;
+    border-color: #2d5b83;
+    color: #fff !important;
+}
+
+.reorder {
+    cursor: move;
+}
+
+.ui-icon-delete:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%2214%2C3%2011%2C0%207%2C4%203%2C0%200%2C3%204%2C7%200%2C11%203%2C14%207%2C10%2011%2C14%2014%2C11%2010%2C7%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.ui-icon-edit:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23FFF%22%20d%3D%22M1%2C10l-1%2C4l4-1l7-7L8%2C3L1%2C10z%20M11%2C0L9%2C2l3%2C3l2-2L11%2C0z%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.ui-icon-eye:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20style%3D%22fill%3A%23FFFFFF%3B%22%20d%3D%22M7%2C2C3%2C2%2C0%2C7%2C0%2C7s3%2C5%2C7%2C5s7-5%2C7-5S11%2C2%2C7%2C2z%20M7%2C10c-1.657%2C0-3-1.344-3-3c0-1.657%2C1.343-3%2C3-3%20s3%2C1.343%2C3%2C3C10%2C8.656%2C8.657%2C10%2C7%2C10z%20M7%2C6C6.448%2C6%2C6%2C6.447%2C6%2C7c0%2C0.553%2C0.448%2C1%2C1%2C1s1-0.447%2C1-1C8%2C6.447%2C7.552%2C6%2C7%2C6z%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.ui-icon-check:after,
+/* Used ui-checkbox-on twice to increase specificity. If active state has background-image for gradient this rule overrides. */
+    html
+    .ui-btn.ui-checkbox-on.ui-checkbox-on:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20style%3D%22fill%3A%23FFFFFF%3B%22%20points%3D%2214%2C4%2011%2C1%205.003%2C6.997%203%2C5%200%2C8%204.966%2C13%204.983%2C12.982%205%2C13%20%22%2F%3E%3C%2Fsvg%3E");
+}
+
+.ui-icon-plus:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%2214%2C5%209%2C5%209%2C0%205%2C0%205%2C5%200%2C5%200%2C9%205%2C9%205%2C14%209%2C14%209%2C9%2014%2C9%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+/* Buttons and icons */
+.ui-btn {
+    font-size: 16px;
+    margin: 0.5em 0;
+    padding: 0.7em 1em;
+    display: block;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+}
+
+.ui-btn-icon-notext,
+.ui-header button.ui-btn.ui-btn-icon-notext,
+.ui-footer button.ui-btn.ui-btn-icon-notext {
+    padding: 0;
+    width: 1.75em;
+    height: 1.75em;
+    text-indent: -9999px;
+    white-space: nowrap !important;
+}
+
+.ui-mini {
+    font-size: 12.5px;
+}
+
+.ui-mini .ui-btn {
+    font-size: inherit;
+}
+
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after,
+.ui-btn-icon-notext:after {
+    background-color: #666;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-border-radius: 1em;
+    border-radius: 1em;
+}
+
+.ui-btn {
+    font-size: 16px;
+    margin: 0.5em 0;
+    padding: 0.7em 1em;
+    display: block;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ui-btn-icon-notext,
+.ui-header button.ui-btn.ui-btn-icon-notext,
+.ui-footer button.ui-btn.ui-btn-icon-notext {
+    padding: 0;
+    width: 1.75em;
+    height: 1.75em;
+    text-indent: -9999px;
+    white-space: nowrap !important;
+}
+
+.ui-mini {
+    font-size: 12.5px;
+}
+
+.ui-mini .ui-btn {
+    font-size: inherit;
+}
+/* Make buttons in toolbars default to mini and inline. */
+.ui-header .ui-btn,
+.ui-footer .ui-btn {
+    font-size: 12.5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ui-header .ui-controlgroup .ui-btn-icon-notext,
+.ui-footer .ui-controlgroup .ui-btn-icon-notext {
+    font-size: 12.5px;
+}
+/* To ensure same top and left/right position when ui-btn-left/right are added to something other than buttons. */
+.ui-header .ui-btn-left,
+.ui-header .ui-btn-right {
+    font-size: 12.5px;
+}
+
+.ui-mini.ui-btn-icon-notext,
+.ui-mini .ui-btn-icon-notext,
+.ui-header .ui-btn-icon-notext,
+.ui-footer .ui-btn-icon-notext {
+    font-size: 16px;
+    padding: 0;
+}
+
+.ui-btn-inline {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.625em;
+}
+
+.ui-btn-icon-left {
+    padding-left: 2.5em;
+}
+
+.ui-btn-icon-right {
+    padding-right: 2.5em;
+}
+
+.ui-btn-icon-top {
+    padding-top: 2.5em;
+}
+
+.ui-btn-icon-bottom {
+    padding-bottom: 2.5em;
+}
+
+.ui-header .ui-btn-icon-top,
+.ui-footer .ui-btn-icon-top,
+.ui-header .ui-btn-icon-bottom,
+.ui-footer .ui-btn-icon-bottom {
+    padding-left: 0.3125em;
+    padding-right: 0.3125em;
+}
+
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after,
+.ui-btn-icon-notext:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+.ui-btn-icon-notext:after,
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after {
+    top: 50%;
+    margin-top: -11px;
+}
+
+.ui-btn-icon-left:after {
+    left: 0.5625em;
+}
+
+.ui-btn-icon-right:after {
+    right: 0.5625em;
+}
+
+.ui-mini.ui-btn-icon-left:after,
+.ui-mini .ui-btn-icon-left:after,
+.ui-header .ui-btn-icon-left:after,
+.ui-footer .ui-btn-icon-left:after {
+    left: 0.37em;
+}
+
+.ui-mini.ui-btn-icon-right:after,
+.ui-mini .ui-btn-icon-right:after,
+.ui-header .ui-btn-icon-right:after,
+.ui-footer .ui-btn-icon-right:after {
+    right: 0.37em;
+}
+
+.ui-btn-icon-notext:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after {
+    left: 50%;
+    margin-left: -11px;
+}
+
+.ui-btn-icon-top:after {
+    top: 0.5625em;
+}
+
+.ui-btn-icon-bottom:after {
+    top: auto;
+    bottom: 0.5625em;
+}
+/* Buttons in header position classes */
+.ui-header .ui-btn-left,
+.ui-header .ui-btn-right,
+.ui-btn-left > [class*="ui-"],
+.ui-btn-right > [class*="ui-"] {
+    margin: 0;
+}
+
+.ui-btn-left,
+.ui-btn-right {
+    position: absolute;
+    top: 0.24em;
+}
+
+.ui-btn-left {
+    left: 0.4em;
+}
+
+.ui-btn-right {
+    right: 0.4em;
+}
+
+.ui-btn-icon-notext.ui-btn-left {
+    top: 0.3125em;
+    left: 0.3125em;
+}
+
+.ui-btn-icon-notext.ui-btn-right {
+    top: 0.3125em;
+    right: 0.3125em;
+}
+/* Button elements */
+button.ui-btn,
+.ui-controlgroup-controls button.ui-btn-icon-notext {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+}
+
+button.ui-btn-inline,
+.ui-header button.ui-btn,
+.ui-footer button.ui-btn {
+    width: auto;
+}
+
+.ui-btn-icon-left:after,
+.ui-btn-icon-right:after,
+.ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after,
+.ui-btn-icon-notext:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+/* Firefox adds a 1px border in a button element. We negate this to make sure they have the same height as other buttons in controlgroups. */
+button.ui-btn::-moz-focus-inner {
+    border: 0;
+}
+
+button.ui-btn-icon-notext,
+.ui-controlgroup-horizontal .ui-controlgroup-controls button.ui-btn {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 1.75em;
+}
+
+.ui-btn-icon-right {
+    padding-right: 2.5em;
+}
+
+/*CUSTOM*/
+a.ax-link {
+    margin-right: 0.5em;
+}
+
+.ax-export-settings {
+    display: inline-block;
+}
+
+.ui-btn-icon-notext {
+    background-color: transparent;
+}
+
+#enroller_config_holder {
+    background: #fcfcfc;
+    padding: 1em;
+    max-width: 80em;
+}
+
+#enroller_config_holder input.ax-config-text-input,
+#enroller_config_holder input[type="text"],
+#enroller_config_holder textarea,
+#enroller_config_holder .ui-btn {
+    -webkit-border-radius: 0.3125em;
+    border-radius: 0.3125em;
+    border-top-left-radius: 0.3125em;
+    border-top-right-radius: 0.3125em;
+    border-bottom-right-radius: 0.3125em;
+    border-bottom-left-radius: 0.3125em;
+}
+
+#enroller_config_holder input.ax-config-text-input,
+#enroller_config_holder input[type="text"],
+#enroller_config_holder textarea {
+    padding: 0.5em;
+}
+
+.dt-rowReorder-moving,
+.dt-rowReorder-moving .reorder {
+    background-color: #53a8e0 !important;
+    color: #fff;
+}
+
+.reorder {
+    cursor: move;
+}
+
+#enroller_config_holder .ax-step-input-holder {
+    margin-bottom: 0.5em;
+}
+
+#enroller_config_holder .ax-step-input-holder input,
+#enroller_config_holder .ax-step-input-holder textarea {
+    background-color: #f6f6f6;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #f3f3f3;
+    width: 400px;
+    display: inline-block;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+#enroller_config_holder .ax-step-input-holder .ax-step-input-label {
+    display: inline-block;
+    width: 14em;
+    text-align: right;
+    font-size: 1em;
+    margin-right: 1em;
+    vertical-align: middle;
+}
+
+#enroller_config_holder .chosen-single {
+    height: auto;
+    border: 1px solid #aaa;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #f6f6f6;
+    vertical-align: top;
+}
+
+#enroller_config_holder #ax_add_custom_field {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#enroller_config_holder .dataTable {
+    width: 100% !important;
+}
+
+.ax-step-input-holder a.ui-btn-icon-notext {
+    margin-left: 1em;
+}
+
+.chosen-search input {
+    width: 100% !important;
+}
+
+.ui-btn-icon-notext {
+    vertical-align: middle;
+}
+
+a.ui-btn.ax-field-save,
+a.ui-btn.ax-step-save,
+a.ui-btn.ax-field-save-v {
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+a.ax-config-delete,
+a.ax-config-edit,
+a.ax-config-duplicate {
+    display: inline-block;
+}
+
+div.ax-field-list-holder {
+    margin-bottom: 2em;
+}
+
+div.ax-step-content {
+    margin-top: 1em;
+}
+
+div.ax-new-field,
+div.ax-new-step {
+    background: #eaf3f9;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+a.ax-config-close {
+    float: right;
+    margin-top: -0.3em;
+}
+
+
+
+#enroller_config_holder .ax-config-tooltip:after {
+}
+
+#enroller_config_holder div.chosen-container,
+#enroller_config_holder textarea {
+    margin-right: 2px;
+}
+
+.ax-config-controls {
+    border-top: 2px #ddd solid;
+    margin-top: 2em;
+    clear: left;
+    padding-top: 1em;
+}
+
+.ax-save-field,
+.ax-save-field-v,
+.ax-save-field-e,
+.ax-save-field-t {
+    width: 100%;
+    border-bottom: 2px #ddd solid;
+}
+
+.ax-save-field label,
+.ax-save-step label {
+    opacity: 0;
+}
+
+/*
+ * Table
+ */
+table.dataTable {
+    margin: 0 auto 10px auto;
+    clear: both;
+    width: 100%;
+}
+
+table.dataTable thead th {
+    padding-right: 18px;
+
+    font-weight: bold;
+    cursor: pointer;
+    *cursor: hand;
+}
+
+table.dataTable tfoot th {
+    padding: 3px 18px 3px 10px;
+    border-top: 1px solid black;
+    font-weight: bold;
+}
+
+table.dataTable td {
+    padding: 3px 10px;
+}
+
+table.dataTable td.center,
+table.dataTable td.dataTables_empty {
+    text-align: center;
+}
+
+table.dataTable tr.odd,
+table.dataTable tr.odd td {
+    background-color: #eaf3f9;
+}
+table.dataTable tr.even,
+table.dataTable tr.even td {
+    background-color: white;
+}
+
+table.dataTable tr.odd td.sorting_1 {
+    background-color: #d6e7f4;
+}
+table.dataTable tr.odd td.sorting_2 {
+    background-color: #dadcff;
+}
+table.dataTable tr.odd td.sorting_3 {
+    background-color: #e0e2ff;
+}
+table.dataTable tr.even td.sorting_1 {
+    background-color: #eaf6ff;
+}
+table.dataTable tr.even td.sorting_2 {
+    background-color: #f2f3ff;
+}
+table.dataTable tr.even td.sorting_3 {
+    background-color: #f9f9ff;
+}
+
+/*
+ * Table wrapper
+ */
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    *zoom: 1;
+}
+
+.dataTables_wrapper div.axDtLeft {
+    float: left;
+    height: 60px;
+    vertical-align: bottom;
+}
+.dataTables_wrapper div.axDtRight {
+    float: right;
+    height: 60px;
+    vertical-align: bottom;
+}
+
+/*
+ * Page length menu
+ */
+.dataTables_length {
+    text-align: left;
+    margin-bottom: 2em;
+    float: left;
+}
+
+/*
+ * Table information
+ */
+.dataTables_info {
+    text-align: left;
+    float: left;
+}
+
+/*
+ * Pagination
+ */
+.dataTables_paginate {
+    float: right;
+    text-align: right;
+}
+
+/* Two button pagination - previous / next */
+.paginate_disabled_previous,
+.paginate_enabled_previous,
+.paginate_disabled_next,
+.paginate_enabled_next {
+    height: 19px;
+    float: left;
+    cursor: pointer;
+    *cursor: hand;
+    color: #111 !important;
+}
+.paginate_disabled_previous:hover,
+.paginate_enabled_previous:hover,
+.paginate_disabled_next:hover,
+.paginate_enabled_next:hover {
+    text-decoration: none !important;
+}
+.paginate_disabled_previous:active,
+.paginate_enabled_previous:active,
+.paginate_disabled_next:active,
+.paginate_enabled_next:active {
+    outline: none;
+}
+
+.paginate_disabled_previous,
+.paginate_disabled_next {
+    color: #cbcccf !important;
+}
+.paginate_disabled_previous,
+.paginate_enabled_previous {
+    padding-left: 23px;
+}
+.paginate_disabled_next,
+.paginate_enabled_next {
+    padding-right: 23px;
+    margin-left: 10px;
+}
+
+.paginate_enabled_previous {
+    background: url("/agentportal/gfx/global/icon/back_enabled.png") no-repeat top left;
+}
+.paginate_enabled_previous:hover {
+    background: url("/agentportal/gfx/global/icon/back_enabled_hover.png") no-repeat top left;
+}
+.paginate_disabled_previous {
+    background: url("/agentportal/gfx/global/icon/back_disabled.png") no-repeat top left;
+}
+
+.paginate_enabled_next {
+    background: url("/agentportal/gfx/global/icon/forward_enabled.png") no-repeat top right;
+}
+.paginate_enabled_next:hover {
+    background: url("/agentportal/gfx/global/icon/forward_enabled_hover.png") no-repeat top right;
+}
+.paginate_disabled_next {
+    background: url("/agentportal/gfx/global/icon/forward_disabled.png") no-repeat top right;
+}
+
+/* Full number pagination */
+.paging_full_numbers {
+    height: 22px;
+    line-height: 22px;
+}
+.paging_full_numbers a:active {
+    outline: none;
+}
+.paging_full_numbers a:hover {
+    text-decoration: none;
+}
+
+.paging_full_numbers a.paginate_button,
+.paging_full_numbers a.paginate_active {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+
+    padding: 2px 5px;
+    margin: 0 3px;
+    cursor: pointer;
+    color: #333;
+}
+
+.paging_full_numbers a.paginate_button_disabled {
+    color: #9e9e9e;
+}
+
+.paging_full_numbers a.paginate_button:hover {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-decoration: none !important;
+    color: #1f9bde;
+}
+.paging_full_numbers a.paginate_button_disabled:hover {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #9e9e9e;
+}
+
+.paging_full_numbers a.paginate_active {
+    background-color: #339fd9;
+    color: white;
+    cursor: default;
+}
+
+/*
+ * Processing indicator
+ */
+.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 30px;
+    margin-left: -125px;
+    margin-top: -15px;
+    padding: 14px 0 2px 0;
+    border: 1px solid #ddd;
+    text-align: center;
+    color: #999;
+    font-size: 14px;
+    background-color: white;
+}
+
+/*
+ * Sorting
+ */
+
+table.dataTable thead th:active,
+table.dataTable thead td:active {
+    outline: none;
+}
+
+/*
+ * Scrolling
+ */
+.dataTables_scroll {
+    clear: both;
+}
+
+.dataTables_scrollBody {
+    *margin-top: -1px;
+    -webkit-overflow-scrolling: touch;
+}
+.ui-screen-hidden {
+    display: none !important;
+}
+
+.ui-listview > .ui-li-static {
+    background: transparent;
+    border: none;
+    padding: 0em;
+    white-space: normal;
+}
+
+/*Settings Filter*/
+.ui-input-search:after {
+    position: absolute;
+    left: 0.3125em;
+    top: 50%;
+    margin-top: -11px;
+    content: "";
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+}
+
+.ui-alt-icon.ui-icon-search:after,
+.ui-alt-icon .ui-icon-search:after,
+.ui-input-search:after {
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<%3Fxml%20version%3D"1.0"%20encoding%3D"iso-8859-1"%3F><!DOCTYPE%20svg%20PUBLIC%20"-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN"%20"http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd"><svg%20version%3D"1.1"%20id%3D"Layer_1"%20xmlns%3D"http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg"%20xmlns%3Axlink%3D"http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink"%20x%3D"0px"%20y%3D"0px"%20%20width%3D"14px"%20height%3D"14px"%20viewBox%3D"0%200%2014%2014"%20style%3D"enable-background%3Anew%200%200%2014%2014%3B"%20xml%3Aspace%3D"preserve"><path%20d%3D"M10.171%2C8.766c0.617-0.888%2C0.979-1.964%2C0.979-3.126c0-3.037-2.463-5.5-5.5-5.5s-5.5%2C2.463-5.5%2C5.5s2.463%2C5.5%2C5.5%2C5.5%20c1.152%2C0%2C2.223-0.355%2C3.104-0.962l3.684%2C3.683l1.414-1.414L10.171%2C8.766z%20M5.649%2C9.14c-1.933%2C0-3.5-1.567-3.5-3.5%20c0-1.933%2C1.567-3.5%2C3.5-3.5c1.933%2C0%2C3.5%2C1.567%2C3.5%2C3.5C9.149%2C7.572%2C7.582%2C9.14%2C5.649%2C9.14z"%2F><%2Fsvg>');
+}
+
+.ui-input-search input {
+    margin: 0;
+    min-height: 2.2em;
+    text-align: left;
+    border: 0;
+    background: transparent none;
+    -webkit-appearance: none;
+    -webkit-border-radius: inherit;
+    border-radius: inherit;
+}
+.ui-input-search input {
+    padding: 0.4em;
+    line-height: 1.4em;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    margin-left: 12px;
+}
+
+.ui-input-search.ui-input-has-clear .ui-btn.ui-input-clear,
+.ui-input-text.ui-input-has-clear .ui-btn.ui-input-clear {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin: -14px 0.3125em 0;
+    border: 0;
+    background-color: transparent;
+}
+.ui-bar-a,
+.ui-page-theme-a .ui-bar-inherit,
+html .ui-bar-a .ui-bar-inherit,
+html .ui-body-a .ui-bar-inherit,
+html body .ui-group-theme-a .ui-bar-inherit {
+    background-color: #e9e9e9;
+    border-color: #ddd;
+    color: #333;
+    text-shadow: 0 1px 0 #eee;
+    font-weight: bold;
+}
+
+.ui-listview > .ui-li-divider {
+    padding: 0.5em 1.143em;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: default;
+    outline: 0;
+    border: none;
+}
+
+/******* NEW CHANGES *******/
+
+#enroller_config_widget.is-active {
+    position: fixed;
+    top: 10vh;
+    background: #fff;
+    border-left: 10px solid #23282d;
+    border-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+
+    left: 10vw;
+    z-index: 5;
+}
+#enroller_config_widget.wordpress.is-active{
+    left:170px;
+}
+
+@media only screen and (max-width: 960px){
+    #enroller_config_widget.wordpress.is-active{
+        left: 10vW;
+    }
+}
+#config_widget_outer {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+
+    width: 80vw;
+}
+#enroller_config_widget:not(.is-active) {
+    display: none;
+}
+#enroller_config_widget #config_widget_menu_holder {
+    flex: 1;
+    background-color: #23282d;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+}
+#config_widget_top_menu {
+    flex: 1;
+    flex-basis: 40px;
+    min-height: 60px;
+    background-color: #777;
+    width: 100%;
+    z-index: 12;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:4px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+#config_widget_top_menu a.ax-config-close {
+    padding: 8px;
+    background-color: #aaa;
+    max-height: 18px;
+    max-width: 18px;
+    margin-right: 8px;
+    margin-top: 8px;
+    align-self: center;
+}
+#config_widget_holder a.ax-config-close {
+    padding: 8px;
+    background-color: #aaa;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+#config_widget_content_holder {
+    flex-direction: column;
+    flex: 10;
+    overflow: hidden;
+}
+
+#config_widget_holder {
+    flex: 10;
+    padding: 8px;
+    overflow: scroll;
+
+    height: 65vh;
+    padding-bottom: 2em;
+}
+#config_widget_holder >div{
+    padding:.5em;
+}
+div.invisible-label {
+    display: none;
+}
+#enroller_config_widget > a {
+    clear: left;
+}
+
+
+
+.ui-disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+div.ax-config-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 5;
+    padding-left: 8px;
+}
+#config_widget_outer div.ax-config-nav-record {
+    color: #fff;
+    font-size: 1em;
+    padding: 8px;
+    flex: 1;
+    background-color: #555;
+    max-width: 100px;
+    overflow: hidden;
+    margin-right: 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-height: 18px;
+}
+#config_widget_outer #config_widget_menu_holder div.ax-config-nav-record {
+    margin-bottom: 1em;
+}
+
+#config_widget_top_menu div.ax-config-nav-record:last-child {
+    background-color: #53a8e0;
+    color: #fff;
+}
+
+#config_widget_menu_holder h3 {
+    color: #ccc;
+    margin-top: 12px;
+    margin-bottom: 8px;
+
+    font-size: 1.2em;
+    min-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#enroller_config_widget div.ax-step-content {
+    border: 0;
+}
+
+#enroller_config_widget div.ax-config-controls,
+#enroller_config_widget div.ax-step-fieldedit,
+#enroller_config_widget .ax-step-field-event-edit {
+    border: 0;
+    margin-top: 0;
+}
+
+#enroller_config_widget a.ax-export-settings, #enroller_config_widget .ax-save-button {
+    width: 120px;
+
+    background: #0085ba;
+    color: #fff;
+    text-shadow: none;
+
+    margin: 8px;
+    font-size: 16px;
+    border: 0;
+    font-size: 1em;
+    padding: 8px;
+    padding-right: 1.5em;
+
+    overflow: hidden;
+    margin-right: 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-height: 18px;
+}
+
+

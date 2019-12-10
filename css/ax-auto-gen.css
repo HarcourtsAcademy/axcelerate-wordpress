@@ -1,0 +1,133 @@
+div.auto_generate {
+    width: 50em;
+}
+div.auto_generate input {
+    width: 30em;
+    max-width: 100%;
+    vertical-align: middle;
+}
+div.auto_generate .ax-collapseable label {
+    clear: left;
+    display: inline-block;
+    min-width: 100px;
+    margin-top: 4px;
+}
+div.ag-collapse-header {
+    width: 100%;
+    vertical-align: middle;
+    padding: 10px;
+}
+div.ax-checkbox {
+    display: inline-block;
+    margin-right: 3em;
+}
+div.ag-collapse-header.open {
+}
+div.ag-collapse-label {
+    font-size: 16px;
+    margin-left: 1em;
+    vertical-align: top;
+    display: inline-block;
+}
+div.ag-collapsible-outer {
+    width: 100%;
+
+    border-radius: 0;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #fcfcfc;
+    border-left: 4px solid #38c;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+div.ax-collapseable {
+    width: 100%;
+    padding: 10px;
+    padding-top: 4px;
+}
+div.ax-collapseable > div {
+    margin-bottom: 12px;
+}
+div.ax-collapseable.open {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: block;
+}
+div.ax-collapseable.closed {
+    height: 0px;
+    display: none;
+}
+
+div.ag-collapse-chevron.button {
+    display: inline-block;
+    clear: right;
+    float: right;
+    margin-right: 30px;
+    margin-top: -5px;
+}
+div.auto_generate label input {
+    display: none;
+    /* <-- hide the default checkbox */
+}
+div.auto_generate label span {
+    /* <-- style the artificial checkbox */
+
+    height: 16px;
+    width: 16px;
+    border: 1px solid grey;
+    display: inline-block;
+    position: relative;
+}
+div.ax-collapseable label span {
+    height: 14px;
+    width: 14px;
+    margin-left: 3em;
+    vertical-align: middle;
+}
+div.auto_generate [type="checkbox"]:checked + span:before {
+    /* <-- style its checked state..with a ticked icon */
+
+    content: "\2714";
+    position: absolute;
+    top: -8px;
+    left: 0;
+    font-size: 22px;
+}
+div.ax-collapseable [type="checkbox"]:checked + span:before {
+    /* <-- style its checked state..with a ticked icon */
+
+    content: "\2714";
+    position: absolute;
+    top: -4px;
+    left: 0;
+    font-size: 18px;
+}
+
+#ag_submit {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 16px;
+    padding: 4px 25px 4px;
+    height: auto;
+}
+
+div.ag_auto_gen_submit {
+    width: 100%;
+    padding: 10px;
+}
+
+div.ajax.spinner.is-active {
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-top: 50vh;
+
+    float: none;
+
+    display: block;
+}

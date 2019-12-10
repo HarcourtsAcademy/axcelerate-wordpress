@@ -1,0 +1,111 @@
+{
+  "user-login": {
+    "TYPE": "user-login",
+    "UNLIMITED": false,
+    "DESCRIPTION": "User Login Step",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "User Login Step - Required for Use in Wordpress."
+  },
+  "contact-search": {
+    "TYPE": "contact-search",
+    "UNLIMITED": false,
+    "DESCRIPTION": "Contact Search Step",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "Contact Search Step - Required for selecting other Contacts"
+  },
+  "contact-update": {
+    "TYPE": "contact-update",
+    "UNLIMITED": true,
+    "DESCRIPTION": "Update Contact Step",
+    "ALLOWED_FIELDS": true,
+    "TITLE": "Generic Contact Update Step -  Can have multiple."
+  },
+  "address": {
+    "TYPE": "address",
+    "UNLIMITED": true,
+    "DESCRIPTION": "Contact Address Step",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "Contact Address Step"
+  },
+  "usi-validation": {
+    "DISPLAY": "USI",
+    "UNLIMITED": false,
+    "DESCRIPTION": "USI Verification",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "In form verification of USI",
+    "TYPE": "usi-validation"
+  },
+  "courses": {
+    "TYPE": "courses",
+    "UNLIMITED": false,
+    "DESCRIPTION": "Search Courses Step",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "Course Search/Select Step - Required if not passing course ID to the widget"
+  },
+  "portfolio": {
+    "TYPE": "portfolio",
+    "UNLIMITED": true,
+    "DESCRIPTION": "Contact Portfolio Upload Step",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "Portfolio Upload/Download step. Requires a portfolio checklist"
+  },
+  "review": {
+    "TYPE": "review",
+    "UNLIMITED": false,
+    "DESCRIPTION": "Enrolment Review Step - Confirm Details",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "The Enrolment Review Step - This step is required for any Course Enrolment"
+  },
+  "complete": {
+    "DESCRIPTION": "Completion Step/Message",
+    "TYPE": "complete",
+    "UNLIMITED": false,
+    "ALLOWED_FIELDS": false,
+    "TITLE": "Displays a Completion message, indicating that the process is Complete. Only selectable once all required fields complete"
+  },
+  "agent-courses": {
+    "TYPE": "agent-courses",
+    "UNLIMITED": false,
+    "DESCRIPTION": "Agent Grouped Courses",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "The Agent-Courses step will allow multiple courses to be selected for agents, and show commissions."
+  },
+  "enrol": {
+    "TYPE": "enrol",
+    "UNLIMITED": false,
+    "DESCRIPTION": "Billing / Enrolment Step",
+    "REQUIRES_STEP": "review",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "The Enrolment or Billing Step. Allows selection of enrolment methods and finalisation of enrolments."
+  },
+  "enrol-details": {
+    "TYPE": "enrol-details",
+    "UNLIMITED": false,
+    "DESCRIPTION": "Enrolment Settings / Options Step",
+    "ALLOWED_FIELDS": true,
+    "TITLE": "Allows custom data to be passed through to the Course/Enrol Call"
+  },
+
+  "course-enquiry": {
+    "TYPE": "course-enquiry",
+    "UNLIMITED": false,
+    "DESCRIPTION": "Course / General Enquiry",
+    "ALLOWED_FIELDS": true,
+    "TITLE": "Allows for course/general enquiries to be passed through. Requires a contact."
+  },
+  "contact-note": {
+    "TYPE": "contact-note",
+    "UNLIMITED": true,
+    "DESCRIPTION": "Contact Note",
+    "ALLOWED_FIELDS": true,
+    "TITLE": "Allows for data that does not have a corresponding field to be passed through, added as a contact note in aXcelerate."
+  },
+
+  "group-booking": {
+    "TYPE": "group-booking",
+    "UNLIMITED": false,
+    "DESCRIPTION": "Group Booking Step",
+    "ALLOWED_FIELDS": false,
+    "TITLE": "Allows for group bookings, bringing together multiple enrolments accross course types."
+  }
+}

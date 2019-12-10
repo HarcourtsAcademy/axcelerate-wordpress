@@ -1,0 +1,104 @@
+{
+    "step_layout": {
+        "TYPE": "select",
+        "TITLE": "Determines the Position of the Step Menu",
+        "DISPLAY": "Step Layout",
+        "VALUES": [
+            {
+                "DISPLAY": "Left",
+                "VALUE": "left"
+            },
+            {
+                "DISPLAY": "Top",
+                "VALUE": "top"
+            }
+        ],
+        "DEFAULT_VALUE": "left",
+        "GROUPING": "Appearance"
+    },
+    "stylesheet": {
+        "TYPE": "select",
+        "TITLE": "Select the style to be applied to the Enroller",
+        "DISPLAY": "Stylesheet",
+        "VALUES": [
+            {
+                "DISPLAY": "Standard-Navy",
+                "VALUE": "enroller.css"
+            },
+            {
+                "DISPLAY": "Minimal - NewIcons",
+                "VALUE": "enrol_minimal.css"
+            },
+            {
+                "DISPLAY": "Minimal - flat",
+                "VALUE": "enrol_flat.css"
+            },
+            {
+                "DISPLAY": "Fresh",
+                "VALUE": "enrol_fresh.css"
+            }
+        ],
+        "DEFAULT_VALUE": "enrol_minimal.css",
+        "GROUPING": "Appearance"
+    },
+    "stylesheet_override": {
+        "TYPE": "text",
+        "TITLE": "Specify the URL of a custom stylesheet to be loaded.",
+        "DISPLAY": "Custom Stylesheet",
+        "GROUPING": "Appearance"
+    },
+
+    "adjust_field_labels": {
+        "TYPE": "select",
+        "TITLE": "If field labels are wider than normal, shrink their font size to try and keep them from breaking over to the next line.",
+        "DISPLAY": "Adjust Long Labels",
+        "VALUES": [
+            {
+                "DISPLAY": "Adjust Labels",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "Do Not Adjust Labels",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Appearance"
+    },
+
+    "required_complete_check": {
+        "TYPE": "select",
+        "TITLE": "Replace Required Icon with Complete",
+        "DISPLAY": "Required Icon",
+        "VALUES": [
+            {
+                "DISPLAY": "Use Complete Icon",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "Use Required Icon",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Appearance"
+    },
+
+    "use_display_select_placeholder": {
+        "TYPE": "select",
+        "TITLE": "Use field display names as placeholders when no value is selected. If false uses Select instead",
+        "DISPLAY": "Select Placeholders",
+        "VALUES": [
+            {
+                "DISPLAY": "Use Display Name",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "Use Select",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Appearance"
+    }
+}

@@ -1,0 +1,492 @@
+{
+    "show_resumption_button": {
+        "TYPE": "select",
+        "TITLE": "Shows a button which will trigger the Enrolment Resumption process.",
+        "DISPLAY": "Enrolment Resume Button",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings",
+        "AVAILABLE_ENVS": {
+            "wordpress": true,
+            "axcelerate": false,
+            "agent-portal": false,
+            "client-portal": false
+        }
+    },
+    "use_registration_form": {
+        "TYPE": "select",
+        "TITLE": "Apply the defaults from the Registration Form settings within aXcelerate. Note: Enrolment Options from enrolment-details steps within the form will override these defaults.",
+        "DISPLAY": "Registration Form Defaults",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "sync_with_class_schedule": {
+        "TYPE": "select",
+        "TITLE": "This setting enables enrolments to sync with the class schedule. This will override the 'Sync Dates with Workshop' setting.",
+        "DISPLAY": "Sync With Class Schedule",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": "1"
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": "0"
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "discounts_available": {
+        "TYPE": "select",
+        "TITLE": "Enable / disable discounts.",
+        "DISPLAY": "Discounts Available",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "workshop_extra_billable_items": {
+        "TYPE": "select",
+        "TITLE": "Enable / disable extra items display and selection for workshops.",
+        "DISPLAY": "Workshop Extra Items",
+        "VALUES": [
+            {
+                "DISPLAY": "Items Displayed",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "disable_on_complete": {
+        "TYPE": "select",
+        "TITLE": "When enrolment is completed, disable the widget, preventing further enrolments.",
+        "DISPLAY": "Disable On Enrolment",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Enrolment Settings"
+    },
+    "group_booking": {
+        "TYPE": "select",
+        "TITLE": "Enables group bookings, when used in conjunction with the Group Booking Step. Cannot be used in conjunction with Agent Multiple enrolment (Agent Portal).",
+        "DISPLAY": "Group Booking",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "multiple_workshop_override": {
+        "TYPE": "select",
+        "TITLE": "Select the behaviour for class unit workshops, particularly if there are multiple linked workshops per unit. <p>Note: Default behaviour will not allow enrolment into classess where multiple workshops are linked to a single unit.</p>",
+        "DISPLAY": "Class Unit Workshops",
+        "VALUES": [
+            {
+                "DISPLAY": "Default behaviour",
+                "VALUE": "no_override"
+            },
+            {
+                "DISPLAY": "No Workshop Enrolment",
+                "VALUE": "override_all"
+            },
+            {
+                "DISPLAY": "No Workshop - On Error",
+                "VALUE": "on_error"
+            }
+        ],
+        "DEFAULT_VALUE": "no_override",
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "add_purchase_order": {
+        "TYPE": "select",
+        "TITLE": "Show Purchase Order Field so a purchase order can be recorded (Payment Only)",
+        "DISPLAY": "Purchase Order Field",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+    "allow_free_bookings": {
+        "TYPE": "select",
+        "TITLE": "Allows free bookings (confirms the enrolment) with instances which have a 0 Cost. Takes precendence over the options set against billing. Will confirm the enrolment. <p>Note, by default the only option for $0 Courses is Tentative.</p>",
+        "DISPLAY": "Allow Free Bookings",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+    "always_free_bookings": {
+        "TYPE": "select",
+        "TITLE": "No invoices are generated on enrolment, and no payment is required before being booked into the course.<p>Takes precendence over the options set against billing.</p>",
+        "DISPLAY": "Always Free Bookings",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "payment_tentative": {
+        "TYPE": "select",
+        "TITLE": "Enrol tentatively after payment, rather than confirming the enrolment.<p>Note: All tentative settings regarding enquiry/other functions will apply.</p>",
+        "DISPLAY": "Payment Tentative",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+    "direct_debit_tentative": {
+        "TYPE": "select",
+        "TITLE": "Enrol tentatively after direct debit method, rather than confirming the enrolment.<p>Note: Only use this if you must. The tentative method will/can perform the same actions.</p>",
+        "DISPLAY": "Direct Debit Tentative",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+    "ezypay_tentative": {
+        "TYPE": "select",
+        "TITLE": "Enrol tentatively after EZYPAY method, rather than confirming the enrolment.</p>",
+        "DISPLAY": "EZYPAY Tentative",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "lock_ez_plan": {
+        "TYPE": "select",
+        "TITLE": "Provide a button to Lock In a payment plan so it will be the only one available.",
+        "DISPLAY": "Ezypay - Lock Plans",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings",
+        "AVAILABLE_ENVS": {
+            "wordpress": true,
+            "axcelerate": false,
+            "agent-portal": false,
+            "client-portal": false
+        }
+    },
+
+    "invoice_tentative": {
+        "TYPE": "select",
+        "TITLE": "Enrol tentatively with the Invoice Method, rather than confirming the enrolment.<p>Note: Only use this if you must. The tentative method will perform the same actions.</p>",
+        "DISPLAY": "Invoice Tentative",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "hide_cost_fields": {
+        "TYPE": "select",
+        "TITLE": "<p>Hides all fields related to cost, payer and discounts.</p><p>Note: This setting will override Discount settings, Show Payer settings, and Payment Methods. Only Free or Tentative payment methods are permitted with the cost hidden. Invoice settings are not affected by this setting.</p>",
+        "DISPLAY": "Hide Fees/Costs",
+        "VALUES": [
+            {
+                "DISPLAY": "Hide Cost Fields",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "Show Cost Fields",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+    "show_payer": {
+        "TYPE": "select",
+        "TITLE": "<p>Show or hide all payer related fields. This setting will also override any payer related settings when enabled.</p>",
+        "DISPLAY": "Show Payer Fields",
+        "VALUES": [
+            {
+                "DISPLAY": "Show Payer Fields",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "Hide Payer Fields",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "always_suppress_notifications": {
+        "TYPE": "select",
+        "TITLE": "Always suppress notifications from going out to the student.<p>Note: Some User Creation Notifications / Workflow triggered notifications may still be sent out regardless of this setting.</p>",
+        "DISPLAY": "Always Suppress Notifications",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "invoice_on_tentative": {
+        "TYPE": "select",
+        "TITLE": "Send invoice on tentative enrolment. An invoice will still be generated.",
+        "DISPLAY": "Tentative - Send invoice",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 1,
+        "GROUPING": "Enrolment Settings"
+    },
+    "request_signature": {
+        "TYPE": "select",
+        "TITLE": "Adds a signature field to the Billing/Enrol step of the enrolment form. <p>Note, only applies to Enrolment Forms</p>",
+        "DISPLAY": "Request Signature",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "enquiry_on_tentative": {
+        "TYPE": "select",
+        "TITLE": "Generates a course enquiry on Tentative enrolments. Can be used in conjunction with Workflow/settings to create follow up tasks within aXcelerate.",
+        "DISPLAY": "Enquiry on Tentative",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "allow_update_payer_details": {
+        "TYPE": "select",
+        "TITLE": "Allow payer details to be changed in the review/group booking steps.",
+        "DISPLAY": "Change Payer Details",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+
+    "payer_address_required": {
+        "TYPE": "select",
+        "TITLE": "Works in conjunction with the Change Payer Details setting, forcing payer address details to be required to allow enrolment.",
+        "DISPLAY": "Payer Details - Address",
+        "VALUES": [
+            {
+                "DISPLAY": "Required",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "Not Required",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+    "payer_australia_only": {
+        "TYPE": "select",
+        "TITLE": "Remove options to specify overseas addresses for the payer. Required for Debitsuccess",
+        "DISPLAY": "Payer - Australia only",
+        "VALUES": [
+            {
+                "DISPLAY": "Only Australian Addressess",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "Overseas Allowed",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+    "payer_abn_review":{
+        "TYPE": "select",
+        "TITLE": "Allow changing the ABN of the Payer's Orgnaisation.",
+        "DISPLAY": "Payer - Change ABN",
+        "VALUES": [
+            {
+                "DISPLAY": "Allow ABN Change",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    },
+    "show_step_info_block": {
+        "TYPE": "select",
+        "TITLE": "Show the Step Status/Info block at the bottom of the Review Details Step",
+        "DISPLAY": "Show Step Info Block",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ],
+        "DEFAULT_VALUE": 0,
+        "GROUPING": "Enrolment Settings"
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "method_invoice": {
+        "DISPLAY": "Invoice",
+        "TYPE": "select",
+        "TITLE": "Generates and Sends the student an invoice if applicable, confirms the Enrolment.",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ]
+    },
+    "method_payment": {
+        "DISPLAY": "Credit Card Payment",
+        "TYPE": "select",
+        "TITLE": "Generates an Invoice, Requests Payment and sends confirmation (with invoice attached) to the student/payer.",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ]
+    },
+    "method_tentative": {
+        "DISPLAY": "Tentative Enrolment",
+        "TYPE": "select",
+        "TITLE": "Creates a tentative enrolment. Will send confirmation to student.",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ]
+    },
+    "method_direct_debit": {
+        "DISPLAY": "Direct Debit",
+        "TYPE": "select",
+        "TITLE": "Placeholder method. This does not, in acutality, create a direct debit method, but rather displays an extra, non-standard option.",
+        "VALUES": [
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            },
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            }
+        ]
+    },
+    "method_epayment": {
+        "DISPLAY": "Debitsuccess",
+        "TYPE": "select",
+        "TITLE": "Direct debit/Credit card payment via debitsuccess.<p>NOTE: Requires Debitsuccess setup in aXcelerate and a Debitsuccess account.</p>",
+        "VALUES": [
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            }
+        ],
+        "AVAILABLE_ENVS": {
+            "wordpress": true,
+            "axcelerate": false,
+            "agent-portal": false,
+            "client-portal": false
+        }
+    },
+    "method_ezypay": {
+        "DISPLAY": "Ezypay",
+        "TYPE": "select",
+        "TITLE": "Enable Ezypay Payment Plans as a billing option for online enrolments",
+        "VALUES": [
+            {
+                "DISPLAY": "No",
+                "VALUE": 0
+            },
+            {
+                "DISPLAY": "Yes",
+                "VALUE": 1
+            }
+        ],
+        "AVAILABLE_ENVS": {
+            "wordpress": true,
+            "axcelerate": false,
+            "agent-portal": false,
+            "client-portal": false
+        }
+    }
+}
