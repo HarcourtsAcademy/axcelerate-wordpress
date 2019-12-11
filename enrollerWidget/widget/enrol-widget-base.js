@@ -746,8 +746,8 @@ jQuery(function($) {
                             enroller._displayError(key, "Date of Birth cannot be a future date");
 
                             $(inputField).val("");
-                        } else if (selDate - curDate >= -126125714989 && enroller.options.let_babies_enrol !== true) {
-                            enroller._displayError(key, "Date of Birth cannot be within the last 4 years.");
+                        } else if (selDate - curDate >= -567993600000 && enroller.options.let_babies_enrol !== true) {
+                            enroller._displayError(key, "You must be over 18 to enrol.");
                             $(inputField).val("");
                         } else {
                             var fieldHoldObj = $(inputField).closest(".enroller-field-holder");
